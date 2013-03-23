@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60FF24751431D3C500040BF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FF24741431D3C500040BF2 /* UIKit.framework */; };
+		60FF24771431D3C500040BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FF24761431D3C500040BF2 /* Foundation.framework */; };
+		60FF24791431D3C500040BF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FF24781431D3C500040BF2 /* CoreGraphics.framework */; };
+		60FF247F1431D3C500040BF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60FF247D1431D3C500040BF2 /* InfoPlist.strings */; };
+		60FF24821431D3C500040BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FF24811431D3C500040BF2 /* main.m */; };
+		60FF24851431D3C500040BF2 /* Lab3_Task3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FF24841431D3C500040BF2 /* Lab3_Task3AppDelegate.m */; };
+		60FF24881431D3C500040BF2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF24861431D3C500040BF2 /* MainWindow.xib */; };
+		60FF248B1431D3C500040BF2 /* Lab3_Task3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FF248A1431D3C500040BF2 /* Lab3_Task3ViewController.m */; };
+		60FF248E1431D3C500040BF2 /* Lab3_Task3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF248C1431D3C500040BF2 /* Lab3_Task3ViewController.xib */; };
+		60FF24951431D44C00040BF2 /* actors_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60FF24941431D44C00040BF2 /* actors_list.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60FF24701431D3C500040BF2 /* Lab3-Task3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab3-Task3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FF24741431D3C500040BF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60FF24761431D3C500040BF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60FF24781431D3C500040BF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60FF247C1431D3C500040BF2 /* Lab3-Task3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab3-Task3-Info.plist"; sourceTree = "<group>"; };
+		60FF247E1431D3C500040BF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60FF24801431D3C500040BF2 /* Lab3-Task3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab3-Task3-Prefix.pch"; sourceTree = "<group>"; };
+		60FF24811431D3C500040BF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60FF24831431D3C500040BF2 /* Lab3_Task3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lab3_Task3AppDelegate.h; sourceTree = "<group>"; };
+		60FF24841431D3C500040BF2 /* Lab3_Task3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3_Task3AppDelegate.m; sourceTree = "<group>"; };
+		60FF24871431D3C500040BF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		60FF24891431D3C500040BF2 /* Lab3_Task3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lab3_Task3ViewController.h; sourceTree = "<group>"; };
+		60FF248A1431D3C500040BF2 /* Lab3_Task3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3_Task3ViewController.m; sourceTree = "<group>"; };
+		60FF248D1431D3C500040BF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Lab3_Task3ViewController.xib; sourceTree = "<group>"; };
+		60FF24941431D44C00040BF2 /* actors_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = actors_list.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60FF246D1431D3C400040BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF24751431D3C500040BF2 /* UIKit.framework in Frameworks */,
+				60FF24771431D3C500040BF2 /* Foundation.framework in Frameworks */,
+				60FF24791431D3C500040BF2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FF24651431D3C400040BF2 = {
+			isa = PBXGroup;
+			children = (
+				60FF247A1431D3C500040BF2 /* Lab3-Task3 */,
+				60FF24731431D3C500040BF2 /* Frameworks */,
+				60FF24711431D3C500040BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60FF24711431D3C500040BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FF24701431D3C500040BF2 /* Lab3-Task3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60FF24731431D3C500040BF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60FF24741431D3C500040BF2 /* UIKit.framework */,
+				60FF24761431D3C500040BF2 /* Foundation.framework */,
+				60FF24781431D3C500040BF2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60FF247A1431D3C500040BF2 /* Lab3-Task3 */ = {
+			isa = PBXGroup;
+			children = (
+				60FF24831431D3C500040BF2 /* Lab3_Task3AppDelegate.h */,
+				60FF24841431D3C500040BF2 /* Lab3_Task3AppDelegate.m */,
+				60FF24891431D3C500040BF2 /* Lab3_Task3ViewController.h */,
+				60FF248A1431D3C500040BF2 /* Lab3_Task3ViewController.m */,
+				E54E6C1B1441BE0200716E92 /* Resource */,
+				60FF247B1431D3C500040BF2 /* Supporting Files */,
+			);
+			path = "Lab3-Task3";
+			sourceTree = "<group>";
+		};
+		60FF247B1431D3C500040BF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FF247C1431D3C500040BF2 /* Lab3-Task3-Info.plist */,
+				60FF247D1431D3C500040BF2 /* InfoPlist.strings */,
+				60FF24801431D3C500040BF2 /* Lab3-Task3-Prefix.pch */,
+				60FF24811431D3C500040BF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E54E6C1B1441BE0200716E92 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				60FF24861431D3C500040BF2 /* MainWindow.xib */,
+				60FF248C1431D3C500040BF2 /* Lab3_Task3ViewController.xib */,
+				60FF24941431D44C00040BF2 /* actors_list.txt */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60FF246F1431D3C400040BF2 /* Lab3-Task3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FF24911431D3C500040BF2 /* Build configuration list for PBXNativeTarget "Lab3-Task3" */;
+			buildPhases = (
+				60FF246C1431D3C400040BF2 /* Sources */,
+				60FF246D1431D3C400040BF2 /* Frameworks */,
+				60FF246E1431D3C400040BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab3-Task3";
+			productName = "Lab3-Task3";
+			productReference = 60FF24701431D3C500040BF2 /* Lab3-Task3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60FF24671431D3C400040BF2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 60FF246A1431D3C400040BF2 /* Build configuration list for PBXProject "Lab3-Task3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60FF24651431D3C400040BF2;
+			productRefGroup = 60FF24711431D3C500040BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60FF246F1431D3C400040BF2 /* Lab3-Task3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60FF246E1431D3C400040BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF247F1431D3C500040BF2 /* InfoPlist.strings in Resources */,
+				60FF24881431D3C500040BF2 /* MainWindow.xib in Resources */,
+				60FF248E1431D3C500040BF2 /* Lab3_Task3ViewController.xib in Resources */,
+				60FF24951431D44C00040BF2 /* actors_list.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FF246C1431D3C400040BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF24821431D3C500040BF2 /* main.m in Sources */,
+				60FF24851431D3C500040BF2 /* Lab3_Task3AppDelegate.m in Sources */,
+				60FF248B1431D3C500040BF2 /* Lab3_Task3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60FF247D1431D3C500040BF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FF247E1431D3C500040BF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60FF24861431D3C500040BF2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FF24871431D3C500040BF2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		60FF248C1431D3C500040BF2 /* Lab3_Task3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FF248D1431D3C500040BF2 /* en */,
+			);
+			name = Lab3_Task3ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60FF248F1431D3C500040BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60FF24901431D3C500040BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		60FF24921431D3C500040BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab3-Task3/Lab3-Task3-Prefix.pch";
+				INFOPLIST_FILE = "Lab3-Task3/Lab3-Task3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60FF24931431D3C500040BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab3-Task3/Lab3-Task3-Prefix.pch";
+				INFOPLIST_FILE = "Lab3-Task3/Lab3-Task3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FF246A1431D3C400040BF2 /* Build configuration list for PBXProject "Lab3-Task3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FF248F1431D3C500040BF2 /* Debug */,
+				60FF24901431D3C500040BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FF24911431D3C500040BF2 /* Build configuration list for PBXNativeTarget "Lab3-Task3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FF24921431D3C500040BF2 /* Debug */,
+				60FF24931431D3C500040BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FF24671431D3C400040BF2 /* Project object */;
+}

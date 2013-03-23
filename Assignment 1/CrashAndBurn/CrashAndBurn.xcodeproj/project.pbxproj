@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494B77B713977AA9001F830C /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 494B77B613977AA9001F830C /* Assets */; };
+		49D170CC1393852500404C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D170CB1393852500404C5B /* UIKit.framework */; };
+		49D170CE1393852500404C5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D170CD1393852500404C5B /* Foundation.framework */; };
+		49D170D01393852500404C5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D170CF1393852500404C5B /* CoreGraphics.framework */; };
+		49D170D61393852500404C5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49D170D41393852500404C5B /* InfoPlist.strings */; };
+		49D170D91393852500404C5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D170D81393852500404C5B /* main.m */; };
+		49D170DC1393852500404C5B /* CrashAndBurnAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D170DB1393852500404C5B /* CrashAndBurnAppDelegate.m */; };
+		49D170DF1393852500404C5B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D170DD1393852500404C5B /* MainWindow.xib */; };
+		49D170E21393852500404C5B /* CrashAndBurnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D170E11393852500404C5B /* CrashAndBurnViewController.m */; };
+		49D170E51393852500404C5B /* CrashAndBurnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D170E31393852500404C5B /* CrashAndBurnViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		494B77B613977AA9001F830C /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		49D170C71393852500404C5B /* CrashAndBurn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashAndBurn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D170CB1393852500404C5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49D170CD1393852500404C5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49D170CF1393852500404C5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49D170D31393852500404C5B /* CrashAndBurn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashAndBurn-Info.plist"; sourceTree = "<group>"; };
+		49D170D51393852500404C5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49D170D71393852500404C5B /* CrashAndBurn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashAndBurn-Prefix.pch"; sourceTree = "<group>"; };
+		49D170D81393852500404C5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49D170DA1393852500404C5B /* CrashAndBurnAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashAndBurnAppDelegate.h; sourceTree = "<group>"; };
+		49D170DB1393852500404C5B /* CrashAndBurnAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashAndBurnAppDelegate.m; sourceTree = "<group>"; };
+		49D170DE1393852500404C5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		49D170E01393852500404C5B /* CrashAndBurnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashAndBurnViewController.h; sourceTree = "<group>"; };
+		49D170E11393852500404C5B /* CrashAndBurnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashAndBurnViewController.m; sourceTree = "<group>"; };
+		49D170E41393852500404C5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CrashAndBurnViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D170C41393852500404C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D170CC1393852500404C5B /* UIKit.framework in Frameworks */,
+				49D170CE1393852500404C5B /* Foundation.framework in Frameworks */,
+				49D170D01393852500404C5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D170BC1393852500404C5B = {
+			isa = PBXGroup;
+			children = (
+				494B77B613977AA9001F830C /* Assets */,
+				49D170D11393852500404C5B /* CrashAndBurn */,
+				49D170CA1393852500404C5B /* Frameworks */,
+				49D170C81393852500404C5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D170C81393852500404C5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D170C71393852500404C5B /* CrashAndBurn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D170CA1393852500404C5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D170CB1393852500404C5B /* UIKit.framework */,
+				49D170CD1393852500404C5B /* Foundation.framework */,
+				49D170CF1393852500404C5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49D170D11393852500404C5B /* CrashAndBurn */ = {
+			isa = PBXGroup;
+			children = (
+				49D170DA1393852500404C5B /* CrashAndBurnAppDelegate.h */,
+				49D170DB1393852500404C5B /* CrashAndBurnAppDelegate.m */,
+				49D170DD1393852500404C5B /* MainWindow.xib */,
+				49D170E01393852500404C5B /* CrashAndBurnViewController.h */,
+				49D170E11393852500404C5B /* CrashAndBurnViewController.m */,
+				49D170E31393852500404C5B /* CrashAndBurnViewController.xib */,
+				49D170D21393852500404C5B /* Supporting Files */,
+			);
+			path = CrashAndBurn;
+			sourceTree = "<group>";
+		};
+		49D170D21393852500404C5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49D170D31393852500404C5B /* CrashAndBurn-Info.plist */,
+				49D170D41393852500404C5B /* InfoPlist.strings */,
+				49D170D71393852500404C5B /* CrashAndBurn-Prefix.pch */,
+				49D170D81393852500404C5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D170C61393852500404C5B /* CrashAndBurn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D170E81393852500404C5B /* Build configuration list for PBXNativeTarget "CrashAndBurn" */;
+			buildPhases = (
+				49D170C31393852500404C5B /* Sources */,
+				49D170C41393852500404C5B /* Frameworks */,
+				49D170C51393852500404C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrashAndBurn;
+			productName = CrashAndBurn;
+			productReference = 49D170C71393852500404C5B /* CrashAndBurn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D170BE1393852500404C5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Long Weekend Inc.";
+			};
+			buildConfigurationList = 49D170C11393852500404C5B /* Build configuration list for PBXProject "CrashAndBurn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49D170BC1393852500404C5B;
+			productRefGroup = 49D170C81393852500404C5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D170C61393852500404C5B /* CrashAndBurn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D170C51393852500404C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D170D61393852500404C5B /* InfoPlist.strings in Resources */,
+				49D170DF1393852500404C5B /* MainWindow.xib in Resources */,
+				49D170E51393852500404C5B /* CrashAndBurnViewController.xib in Resources */,
+				494B77B713977AA9001F830C /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D170C31393852500404C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D170D91393852500404C5B /* main.m in Sources */,
+				49D170DC1393852500404C5B /* CrashAndBurnAppDelegate.m in Sources */,
+				49D170E21393852500404C5B /* CrashAndBurnViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49D170D41393852500404C5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D170D51393852500404C5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49D170DD1393852500404C5B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D170DE1393852500404C5B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		49D170E31393852500404C5B /* CrashAndBurnViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D170E41393852500404C5B /* en */,
+			);
+			name = CrashAndBurnViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D170E61393852500404C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49D170E71393852500404C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		49D170E91393852500404C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrashAndBurn/CrashAndBurn-Prefix.pch";
+				INFOPLIST_FILE = "CrashAndBurn/CrashAndBurn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49D170EA1393852500404C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrashAndBurn/CrashAndBurn-Prefix.pch";
+				INFOPLIST_FILE = "CrashAndBurn/CrashAndBurn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D170C11393852500404C5B /* Build configuration list for PBXProject "CrashAndBurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D170E61393852500404C5B /* Debug */,
+				49D170E71393852500404C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D170E81393852500404C5B /* Build configuration list for PBXNativeTarget "CrashAndBurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D170E91393852500404C5B /* Debug */,
+				49D170EA1393852500404C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D170BE1393852500404C5B /* Project object */;
+}

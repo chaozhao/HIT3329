@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11B26" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Product" representedClassName="Product">
+        <attribute name="barcode" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <relationship name="inSale" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sale" inverseName="hasProduct" inverseEntity="Sale"/>
+        <relationship name="inStock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stock" inverseName="hasProduct" inverseEntity="Stock"/>
+    </entity>
+    <entity name="Sale" representedClassName="Sale">
+        <attribute name="expirationData" optional="YES" attributeType="Date"/>
+        <attribute name="product" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+        <relationship name="hasProduct" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="inSale" inverseEntity="Product"/>
+    </entity>
+    <entity name="Stock" representedClassName="Stock">
+        <attribute name="aisle" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="shelf" optional="YES" attributeType="String"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+        <relationship name="hasProduct" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="inStock" inverseEntity="Product"/>
+    </entity>
+    <elements>
+        <element name="Product" positionX="-137" positionY="45" width="128" height="120"/>
+        <element name="Sale" positionX="-405" positionY="-54" width="117" height="120"/>
+        <element name="Stock" positionX="-405" positionY="180" width="128" height="120"/>
+    </elements>
+</model>

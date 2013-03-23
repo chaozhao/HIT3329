@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5ADDE6C14415A4000006CC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ADDE6B14415A4000006CC0 /* UIKit.framework */; };
+		E5ADDE6E14415A4000006CC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ADDE6D14415A4000006CC0 /* Foundation.framework */; };
+		E5ADDE7014415A4000006CC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ADDE6F14415A4000006CC0 /* CoreGraphics.framework */; };
+		E5ADDE7214415A4000006CC0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ADDE7114415A4000006CC0 /* CoreData.framework */; };
+		E5ADDE7814415A4000006CC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5ADDE7614415A4000006CC0 /* InfoPlist.strings */; };
+		E5ADDE7A14415A4000006CC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ADDE7914415A4000006CC0 /* main.m */; };
+		E5ADDE7E14415A4000006CC0 /* Assignment5_Task1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ADDE7D14415A4000006CC0 /* Assignment5_Task1AppDelegate.m */; };
+		E5ADDE8114415A4000006CC0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5ADDE7F14415A4000006CC0 /* MainWindow.xib */; };
+		E5ADDE8414415A4000006CC0 /* Assignment5_Task1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5ADDE8214415A4000006CC0 /* Assignment5_Task1.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5ADDE6714415A4000006CC0 /* Assignment5-Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment5-Task1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5ADDE6B14415A4000006CC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5ADDE6D14415A4000006CC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5ADDE6F14415A4000006CC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5ADDE7114415A4000006CC0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E5ADDE7514415A4000006CC0 /* Assignment5-Task1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment5-Task1-Info.plist"; sourceTree = "<group>"; };
+		E5ADDE7714415A4000006CC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5ADDE7914415A4000006CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5ADDE7B14415A4000006CC0 /* Assignment5-Task1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment5-Task1-Prefix.pch"; sourceTree = "<group>"; };
+		E5ADDE7C14415A4000006CC0 /* Assignment5_Task1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assignment5_Task1AppDelegate.h; sourceTree = "<group>"; };
+		E5ADDE7D14415A4000006CC0 /* Assignment5_Task1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment5_Task1AppDelegate.m; sourceTree = "<group>"; };
+		E5ADDE8014415A4000006CC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E5ADDE8314415A4000006CC0 /* Assignment5_Task1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assignment5_Task1.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5ADDE6414415A4000006CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5ADDE6C14415A4000006CC0 /* UIKit.framework in Frameworks */,
+				E5ADDE6E14415A4000006CC0 /* Foundation.framework in Frameworks */,
+				E5ADDE7014415A4000006CC0 /* CoreGraphics.framework in Frameworks */,
+				E5ADDE7214415A4000006CC0 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5ADDE5C14415A4000006CC0 = {
+			isa = PBXGroup;
+			children = (
+				E5ADDE7314415A4000006CC0 /* Assignment5-Task1 */,
+				E5ADDE6A14415A4000006CC0 /* Frameworks */,
+				E5ADDE6814415A4000006CC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5ADDE6814415A4000006CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5ADDE6714415A4000006CC0 /* Assignment5-Task1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5ADDE6A14415A4000006CC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5ADDE6B14415A4000006CC0 /* UIKit.framework */,
+				E5ADDE6D14415A4000006CC0 /* Foundation.framework */,
+				E5ADDE6F14415A4000006CC0 /* CoreGraphics.framework */,
+				E5ADDE7114415A4000006CC0 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5ADDE7314415A4000006CC0 /* Assignment5-Task1 */ = {
+			isa = PBXGroup;
+			children = (
+				E5ADDE7C14415A4000006CC0 /* Assignment5_Task1AppDelegate.h */,
+				E5ADDE7D14415A4000006CC0 /* Assignment5_Task1AppDelegate.m */,
+				E5ADDE7F14415A4000006CC0 /* MainWindow.xib */,
+				E5ADDE8214415A4000006CC0 /* Assignment5_Task1.xcdatamodeld */,
+				E5ADDE7414415A4000006CC0 /* Supporting Files */,
+			);
+			path = "Assignment5-Task1";
+			sourceTree = "<group>";
+		};
+		E5ADDE7414415A4000006CC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5ADDE7514415A4000006CC0 /* Assignment5-Task1-Info.plist */,
+				E5ADDE7614415A4000006CC0 /* InfoPlist.strings */,
+				E5ADDE7914415A4000006CC0 /* main.m */,
+				E5ADDE7B14415A4000006CC0 /* Assignment5-Task1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5ADDE6614415A4000006CC0 /* Assignment5-Task1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5ADDE8714415A4000006CC0 /* Build configuration list for PBXNativeTarget "Assignment5-Task1" */;
+			buildPhases = (
+				E5ADDE6314415A4000006CC0 /* Sources */,
+				E5ADDE6414415A4000006CC0 /* Frameworks */,
+				E5ADDE6514415A4000006CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment5-Task1";
+			productName = "Assignment5-Task1";
+			productReference = E5ADDE6714415A4000006CC0 /* Assignment5-Task1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5ADDE5E14415A4000006CC0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E5ADDE6114415A4000006CC0 /* Build configuration list for PBXProject "Assignment5-Task1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5ADDE5C14415A4000006CC0;
+			productRefGroup = E5ADDE6814415A4000006CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5ADDE6614415A4000006CC0 /* Assignment5-Task1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5ADDE6514415A4000006CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5ADDE7814415A4000006CC0 /* InfoPlist.strings in Resources */,
+				E5ADDE8114415A4000006CC0 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5ADDE6314415A4000006CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5ADDE7A14415A4000006CC0 /* main.m in Sources */,
+				E5ADDE7E14415A4000006CC0 /* Assignment5_Task1AppDelegate.m in Sources */,
+				E5ADDE8414415A4000006CC0 /* Assignment5_Task1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5ADDE7614415A4000006CC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5ADDE7714415A4000006CC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5ADDE7F14415A4000006CC0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5ADDE8014415A4000006CC0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5ADDE8514415A4000006CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5ADDE8614415A4000006CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5ADDE8814415A4000006CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment5-Task1/Assignment5-Task1-Prefix.pch";
+				INFOPLIST_FILE = "Assignment5-Task1/Assignment5-Task1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5ADDE8914415A4000006CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment5-Task1/Assignment5-Task1-Prefix.pch";
+				INFOPLIST_FILE = "Assignment5-Task1/Assignment5-Task1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5ADDE6114415A4000006CC0 /* Build configuration list for PBXProject "Assignment5-Task1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5ADDE8514415A4000006CC0 /* Debug */,
+				E5ADDE8614415A4000006CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5ADDE8714415A4000006CC0 /* Build configuration list for PBXNativeTarget "Assignment5-Task1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5ADDE8814415A4000006CC0 /* Debug */,
+				E5ADDE8914415A4000006CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5ADDE8214415A4000006CC0 /* Assignment5_Task1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5ADDE8314415A4000006CC0 /* Assignment5_Task1.xcdatamodel */,
+			);
+			currentVersion = E5ADDE8314415A4000006CC0 /* Assignment5_Task1.xcdatamodel */;
+			path = Assignment5_Task1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5ADDE5E14415A4000006CC0 /* Project object */;
+}

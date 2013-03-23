@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490F89CA13A0BDFD0058A2B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F89C913A0BDFD0058A2B5 /* UIKit.framework */; };
+		490F89CC13A0BDFD0058A2B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F89CB13A0BDFD0058A2B5 /* Foundation.framework */; };
+		490F89CE13A0BDFD0058A2B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F89CD13A0BDFD0058A2B5 /* CoreGraphics.framework */; };
+		490F89D413A0BDFD0058A2B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 490F89D213A0BDFD0058A2B5 /* InfoPlist.strings */; };
+		490F89D713A0BDFD0058A2B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F89D613A0BDFD0058A2B5 /* main.m */; };
+		490F89DA13A0BDFD0058A2B5 /* SpinCycleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F89D913A0BDFD0058A2B5 /* SpinCycleAppDelegate.m */; };
+		490F89DD13A0BDFD0058A2B5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490F89DB13A0BDFD0058A2B5 /* MainWindow.xib */; };
+		490F89E013A0BDFE0058A2B5 /* SpinCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F89DF13A0BDFE0058A2B5 /* SpinCycleViewController.m */; };
+		490F89E313A0BDFE0058A2B5 /* SpinCycleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490F89E113A0BDFE0058A2B5 /* SpinCycleViewController.xib */; };
+		490F89ED13A0BED40058A2B5 /* OperationSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F89EC13A0BED40058A2B5 /* OperationSimulator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490F89C513A0BDFD0058A2B5 /* SpinCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490F89C913A0BDFD0058A2B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		490F89CB13A0BDFD0058A2B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		490F89CD13A0BDFD0058A2B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		490F89D113A0BDFD0058A2B5 /* SpinCycle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinCycle-Info.plist"; sourceTree = "<group>"; };
+		490F89D313A0BDFD0058A2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		490F89D513A0BDFD0058A2B5 /* SpinCycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpinCycle-Prefix.pch"; sourceTree = "<group>"; };
+		490F89D613A0BDFD0058A2B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		490F89D813A0BDFD0058A2B5 /* SpinCycleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinCycleAppDelegate.h; sourceTree = "<group>"; };
+		490F89D913A0BDFD0058A2B5 /* SpinCycleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinCycleAppDelegate.m; sourceTree = "<group>"; };
+		490F89DC13A0BDFD0058A2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		490F89DE13A0BDFE0058A2B5 /* SpinCycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinCycleViewController.h; sourceTree = "<group>"; };
+		490F89DF13A0BDFE0058A2B5 /* SpinCycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinCycleViewController.m; sourceTree = "<group>"; };
+		490F89E213A0BDFE0058A2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpinCycleViewController.xib; sourceTree = "<group>"; };
+		490F89EB13A0BED40058A2B5 /* OperationSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSimulator.h; sourceTree = "<group>"; };
+		490F89EC13A0BED40058A2B5 /* OperationSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSimulator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490F89C213A0BDFD0058A2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490F89CA13A0BDFD0058A2B5 /* UIKit.framework in Frameworks */,
+				490F89CC13A0BDFD0058A2B5 /* Foundation.framework in Frameworks */,
+				490F89CE13A0BDFD0058A2B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490F89BA13A0BDFD0058A2B5 = {
+			isa = PBXGroup;
+			children = (
+				490F89CF13A0BDFD0058A2B5 /* SpinCycle */,
+				490F89C813A0BDFD0058A2B5 /* Frameworks */,
+				490F89C613A0BDFD0058A2B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490F89C613A0BDFD0058A2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490F89C513A0BDFD0058A2B5 /* SpinCycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490F89C813A0BDFD0058A2B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490F89C913A0BDFD0058A2B5 /* UIKit.framework */,
+				490F89CB13A0BDFD0058A2B5 /* Foundation.framework */,
+				490F89CD13A0BDFD0058A2B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		490F89CF13A0BDFD0058A2B5 /* SpinCycle */ = {
+			isa = PBXGroup;
+			children = (
+				490F89E913A0BE040058A2B5 /* Classes */,
+				490F89EA13A0BE090058A2B5 /* XIBs */,
+				490F89D013A0BDFD0058A2B5 /* Supporting Files */,
+			);
+			path = SpinCycle;
+			sourceTree = "<group>";
+		};
+		490F89D013A0BDFD0058A2B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				490F89D113A0BDFD0058A2B5 /* SpinCycle-Info.plist */,
+				490F89D213A0BDFD0058A2B5 /* InfoPlist.strings */,
+				490F89D513A0BDFD0058A2B5 /* SpinCycle-Prefix.pch */,
+				490F89D613A0BDFD0058A2B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		490F89E913A0BE040058A2B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				490F89D813A0BDFD0058A2B5 /* SpinCycleAppDelegate.h */,
+				490F89D913A0BDFD0058A2B5 /* SpinCycleAppDelegate.m */,
+				490F89DE13A0BDFE0058A2B5 /* SpinCycleViewController.h */,
+				490F89DF13A0BDFE0058A2B5 /* SpinCycleViewController.m */,
+				490F89EB13A0BED40058A2B5 /* OperationSimulator.h */,
+				490F89EC13A0BED40058A2B5 /* OperationSimulator.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		490F89EA13A0BE090058A2B5 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				490F89DB13A0BDFD0058A2B5 /* MainWindow.xib */,
+				490F89E113A0BDFE0058A2B5 /* SpinCycleViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490F89C413A0BDFD0058A2B5 /* SpinCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490F89E613A0BDFE0058A2B5 /* Build configuration list for PBXNativeTarget "SpinCycle" */;
+			buildPhases = (
+				490F89C113A0BDFD0058A2B5 /* Sources */,
+				490F89C213A0BDFD0058A2B5 /* Frameworks */,
+				490F89C313A0BDFD0058A2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinCycle;
+			productName = SpinCycle;
+			productReference = 490F89C513A0BDFD0058A2B5 /* SpinCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490F89BC13A0BDFD0058A2B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Long Weekend LLC";
+			};
+			buildConfigurationList = 490F89BF13A0BDFD0058A2B5 /* Build configuration list for PBXProject "SpinCycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 490F89BA13A0BDFD0058A2B5;
+			productRefGroup = 490F89C613A0BDFD0058A2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490F89C413A0BDFD0058A2B5 /* SpinCycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490F89C313A0BDFD0058A2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490F89D413A0BDFD0058A2B5 /* InfoPlist.strings in Resources */,
+				490F89DD13A0BDFD0058A2B5 /* MainWindow.xib in Resources */,
+				490F89E313A0BDFE0058A2B5 /* SpinCycleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490F89C113A0BDFD0058A2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490F89D713A0BDFD0058A2B5 /* main.m in Sources */,
+				490F89DA13A0BDFD0058A2B5 /* SpinCycleAppDelegate.m in Sources */,
+				490F89E013A0BDFE0058A2B5 /* SpinCycleViewController.m in Sources */,
+				490F89ED13A0BED40058A2B5 /* OperationSimulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		490F89D213A0BDFD0058A2B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490F89D313A0BDFD0058A2B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		490F89DB13A0BDFD0058A2B5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490F89DC13A0BDFD0058A2B5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		490F89E113A0BDFE0058A2B5 /* SpinCycleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490F89E213A0BDFE0058A2B5 /* en */,
+			);
+			name = SpinCycleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490F89E413A0BDFE0058A2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		490F89E513A0BDFE0058A2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		490F89E713A0BDFE0058A2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinCycle/SpinCycle-Prefix.pch";
+				INFOPLIST_FILE = "SpinCycle/SpinCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		490F89E813A0BDFE0058A2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinCycle/SpinCycle-Prefix.pch";
+				INFOPLIST_FILE = "SpinCycle/SpinCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490F89BF13A0BDFD0058A2B5 /* Build configuration list for PBXProject "SpinCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490F89E413A0BDFE0058A2B5 /* Debug */,
+				490F89E513A0BDFE0058A2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490F89E613A0BDFE0058A2B5 /* Build configuration list for PBXNativeTarget "SpinCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490F89E713A0BDFE0058A2B5 /* Debug */,
+				490F89E813A0BDFE0058A2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 490F89BC13A0BDFD0058A2B5 /* Project object */;
+}

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+	<title>Long Weekend - iPhone &amp; iPad Apps You'll Love!</title>
+	
+	<link>http://longweekendmobile.com</link>
+	<description>iPhone &amp; iPad Apps You'll Love!</description>
+	<lastBuildDate>Tue, 07 Jun 2011 00:38:17 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.5</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/LongWeekend" /><feedburner:info uri="longweekend" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>LongWeekend</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>What iOS5 Means For iOS Developers</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/ZdSWwRIbv4E/</link>
+		<comments>http://longweekendmobile.com/2011/06/07/what-ios5-means-for-ios-developers/#comments</comments>
+		<pubDate>Tue, 07 Jun 2011 00:29:27 +0000</pubDate>
+		<dc:creator>Mark</dc:creator>
+				<category><![CDATA[Technobabble]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[ios5]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=34397</guid>
+		<description><![CDATA[I just woke up watched the WWDC 2011 Keynote video. The pundits &#038; magazines have already weighed in on iOS5; the initial comments of &#8220;it&#8217;s about time for notifications&#8221; and &#8220;catch up with the better features of Android&#8221; are pretty spot-on. From a developer&#8217;s perspective, though, what does iOS5 mean? Scott Forstall ran through 10 [...]]]></description>
+			<content:encoded><![CDATA[<p>I just woke up watched the <a href="http://www.apple.com/apple-events/wwdc-2011/">WWDC 2011 Keynote video</a>.</p>
+<p>The <a href="http://www.huffingtonpost.com/2011/06/06/ios-5-vs-ios-4_n_872139.html">pundits</a> &#038; <a href="http://www.pcworld.com/article/229525/with_ios5_apple_mostly_plays_catchup.html">magazines</a> have already weighed in on iOS5; the initial comments of &#8220;it&#8217;s about time for notifications&#8221; and &#8220;catch up with the better features of Android&#8221; are pretty spot-on.</p>
+<p>From a developer&#8217;s perspective, though, what does iOS5 mean?</p>
+<p><span id="more-34397"></span></p>
+<p>Scott Forstall ran through 10 new key features of iOS5 at the keynote.  I&#8217;ve listed them below not in Scott&#8217;s order, but in the order that they affect developers like us.  As this was mostly a catch-up release, a lot of the enhancements are good for iOS users, not developers.</p>
+<ol>
+<li><strong>Notifications</strong>
+<p>This is a huge (positive) change, but it&#8217;s largely catch-up.  The screenshots look great, but anyone who has used Android knows that Android won and Apple has merely copied What Worked.  iOS5 will make notifications <em>less intrusive for users</em> by centralizing them, instead of the modal alert view.  This may be great for users, but it is not so great for developers that rely on push notifications to drive users back to their apps.  Instead, those notifications will appear more like status updates in a Twitter or Facebook status feed &#8211; more likely be cleared out or ignored.</p>
+</li>
+<li><strong>PC Free</strong>
+<p>Under iOS5 you won&#8217;t need a desktop with iTunes to activate.  About F&#8217;N time; this got a huge applause at the WWDC.  This now means that <strong>iOS5 will support over-the-air delta iOS updates</strong>.  This is a big item for developers: any iOS5-installed device will stay VERY current with the latest APIs, so legacy version support becomes less of a worry.</p>
+</li>
+<li><strong>Game Center</strong>
+<p>Apple wants to help with the &#8220;App Discovery&#8221; problem, and it looks like they will test the concept for games specifically in an update to Game Center.  I&#8217;m a big fan of Apple helping iOS developers push apps, but I am hesitant until I see how it works.  Is this going to be another black box in which developers have to poke and prod to figure out what sells apps?</p>
+</li>
+<li><strong>Twitter Integration</strong>
+<p>This is big, but somehow missing the point.  Apple is now including APIs for Twitter; we can retire lots of code in our apps to tie in with Twitter.  Single Sign-On will make it easier for users to use Twitter across all applications.  Great win for Twitter, and a great win for any app developer that uses Twitter (=us).  What about Facebook sharing?  What about other services?  Is this just a preview of other social services that will come in later versions, or is Apple casting its lot with Twitter?</p>
+</li>
+<li><strong>Reminders</strong>
+<p>The todolist app has always been missing from iOS.  Now, they&#8217;ve included it, along with location-based reminders.  Last year, I did work <a href="http://longweekendmobile.com/2010/07/22/iphone-background-gps-accurate-to-500-meters-not-enough-for-foot-traffic/">on the geofencing location technology new to iOS4</a>.  The obvious use case at the time was &#8220;remind me of X when I go here, or when I leave here&#8221;.  This is one thing that I hate about being an iOS developer: Apple tends to take the best use cases of their APIs for themselves.  What about developers who had basically already developed this app?  I guess that&#8217;s capitalism.</p>
+</li>
+<li><strong>Camera</strong>
+<p>Again, Apple shored up a really poor part of iOS &#8211; the camera app.  Again, though, they&#8217;re saying, &#8220;thanks Tap Tap Tap (Camera+) for making great apps that made up for our shortcomings in the past, we&#8217;ve got it now, you can go and do something else&#8221;.  I guess this means that any useful app with wide appeal on iOS has a lifespan before Apple goes and does it themselves.  Do I sound too cynical?</p>
+</li>
+<li><strong>Newsstand</strong>
+<p>basically iBooks for magazines.  Makes perfect sense; I already had the Economist app on my iPad &#8211; why not standardize the content delivery platform and sign up magazines?  That&#8217;s what Apple&#8217;s done.  They&#8217;re trying to make a new iTunes store, but for magazines.  Doesn&#8217;t really affect developers &#8212; that is, unless you&#8217;re the developer developing my Economist app.</p>
+</li>
+<li><strong>iMessage</strong>
+<p>The Messaging app for non-iPhones.  Everyone&#8217;s finally realized that SMS is now irrelevant and just a limitation; with 3G or Wifi, what&#8217;s the point in using the legacy cellular network?  Accordingly, why not enable messaging and a bunch of new features similar to chat or mail to the other devices?  Makes sense, doesn&#8217;t really mean anything for developers.</p>
+</li>
+<li><strong>Safari</strong>
+<p>Apple&#8217;s cleaned up Safari a bit; they added a &#8220;Reader&#8221; functionality that takes care of paging and strips out side ads.  Not good for Web advertisers; publishers will probably become more clever and stick more ads inside the content blocks.  Tabbing is a nice add, but again, mostly improvements/catchup here, and means little for developers.</p>
+</li>
+<li><strong>Mail</strong>
+<p>They claim that mail searching is going to get better.  I will believe it when I see it.  Drag-and-drop to:/CC:/BCC: support is nice.</p>
+</li>
+</ol>
+<p>Would love to hear your feedback in the comments &#8211; what do you think will affect iOS developers in this new release?  I am not at WWDC, so I have yet to see the actual API release notes yet (not released to non-conference people).</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/hZWy6Fto2kUKmOax7Xkn5S0je2I/0/da"><img src="http://feedads.g.doubleclick.net/~a/hZWy6Fto2kUKmOax7Xkn5S0je2I/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/hZWy6Fto2kUKmOax7Xkn5S0je2I/1/da"><img src="http://feedads.g.doubleclick.net/~a/hZWy6Fto2kUKmOax7Xkn5S0je2I/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZdSWwRIbv4E:vlxYhlNcmwo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZdSWwRIbv4E:vlxYhlNcmwo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZdSWwRIbv4E:vlxYhlNcmwo:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=ZdSWwRIbv4E:vlxYhlNcmwo:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZdSWwRIbv4E:vlxYhlNcmwo:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=ZdSWwRIbv4E:vlxYhlNcmwo:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/ZdSWwRIbv4E" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/06/07/what-ios5-means-for-ios-developers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/06/07/what-ios5-means-for-ios-developers/</feedburner:origLink></item>
+		<item>
+		<title>Traveling Programmer: Tools of the Trade</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/bPX23Oz_Z1o/</link>
+		<comments>http://longweekendmobile.com/2011/06/03/traveling-programmer-tools-of-the-trade/#comments</comments>
+		<pubDate>Fri, 03 Jun 2011 08:54:09 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Weekendology]]></category>
+		<category><![CDATA[gear]]></category>
+		<category><![CDATA[lifestyle]]></category>
+		<category><![CDATA[location independent]]></category>
+		<category><![CDATA[travel]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=34263</guid>
+		<description><![CDATA[As a long-term, frequent traveler, I have whittled down to the most essential tools to be able to work anywhere.]]></description>
+			<content:encoded><![CDATA[<p><a href="http://longweekendmobile.com/wp-content/uploads/2011/06/tools.jpg"><img src="http://longweekendmobile.com/wp-content/uploads/2011/06/tools.jpg" alt="" title="tools" width="600" height="450" class="alignnone size-medium wp-image-34264" /></a></p>
+<p>Long Weekend is a <a href="http://en.wikipedia.org/wiki/Location_independence">Location Independent</a> organization. So much so, I no longer maintain a permanent address in any country and have spent time on 4 continents in the past 12 months. In each location, I stayed for 1 month or longer and none of it was vacation time. Well, I didn&#8217;t get too much done during <a href="http://longweekendmobile.com/2010/10/10/the-party-of-the-year-oktoberfest-2010-in-munich/">Oktoberfest</a>.</p>
+<p>When I began these adventures, I packed everything. I ended up with two suitcases, a backpack, and a laptop bag. It was wearing me out. Traveling is a LOT more fun when it isn&#8217;t painful. So, with each trip, I looked at the stuff I had and asked, did I use this? If the answer was no, it either went in the trash or got sent to storage. If the answer was &#8220;sometimes&#8221;, I tried to find a way to combine it.</p>
+<p>I thought I would share what I now bring with me. I will exclude clothing and focus on only the items I need to work anywhere in the world.<span id="more-34263"></span></p>
+<h4>An Extension Cord / Power Strip</h4>
+<p><a href="http://www.amazon.com/gp/product/B000ONZTMW/ref=as_li_ss_tl?ie=UTF8&#038;tag=longweek-20&#038;linkCode=as2&#038;camp=217153&#038;creative=399349&#038;creativeASIN=B000ONZTMW">Monster Outlets To Go Powerstrip</a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=B000ONZTMW&#038;camp=217153&#038;creative=399349" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+A travel power cord is one of the most useful items to have when traveling. You only need 1 power adapter to go from the local outlet style to your home outlet style. Everything else plugs into the power strip. The extra 1-3 feet of cord can help you out as well, sometimes the outlet and the desk are on opposite sides of the room. Or the plug is behind the desk. Most people will have one lying around the house that could work.</p>
+<h4>Macbook</h4>
+<p><a href="http://www.amazon.com/gp/product/B002QQ8H8I/ref=as_li_ss_tl?ie=UTF8&#038;tag=longweek-20&#038;linkCode=as2&#038;camp=217153&#038;creative=399701&#038;creativeASIN=B002QQ8H8I">MacBook Pro 13.3-Inch</a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=B002QQ8H8I&#038;camp=217153&#038;creative=399701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+I carry a 13 inch MacBook. It works great, is powerful enough to compile code, and since I&#8217;m an iOS programmer, it is a requirement of my job. If you are a blogger or do some other kind of IT work, really any 13-15 inch laptop will do the job provided it is powerful enough to do all the tasks you do. Remember when you are traveling that this is the only computer you will likely have available so make sure it powerful enough, but light enough to carry.</p>
+<h4>A compact external hard drive</h4>
+<p><a href="http://www.amazon.com/gp/product/B003B8PPEY/ref=as_li_ss_tl?ie=UTF8&#038;tag=longweek-20&#038;linkCode=as2&#038;camp=217153&#038;creative=399349&#038;creativeASIN=B003B8PPEY">Western Digital 1 TB USB Hard Drive</a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=B003B8PPEY&#038;camp=217153&#038;creative=399349" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+This is essential until cloud backup becomes a true option. When traveling, keeping Time Machine backups might seem annoying, but when your computer breaks, gets stolen, etc. it&#8217;s a life saver. You can get a new Mac almost anywhere in the world, you can only get your data and setup from your current one. Also great for storing all those pictures, music, and movies you want to bring from home.</p>
+<h4>2 iPhone/iPod Cables And Earphones</h4>
+<p><a href="http://www.amazon.com/gp/product/B003UT6OYY/ref=as_li_ss_tl?ie=UTF8&#038;tag=longweek-20&#038;linkCode=as2&#038;camp=217153&#038;creative=399349&#038;creativeASIN=B003UT6OYY">Apple USB Charge Cable</a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=B003UT6OYY&#038;camp=217153&#038;creative=399349" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> | <a href="http://www.amazon.com/gp/product/B004DEPOA0/ref=as_li_ss_tl?ie=UTF8&#038;tag=longweek-20&#038;linkCode=as2&#038;camp=217153&#038;creative=399349&#038;creativeASIN=B004DEPOA0">Apple Earphones</a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=B004DEPOA0&#038;camp=217153&#038;creative=399349" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+Always have an extra one of each of these. They are pretty easy to lose on the road, as you often plugin your iPhone at random locations and these aren&#8217;t that easy to track down if you are in an unfamiliar place. I carry 2. The earphones are also essential for focusing on your work at cafes and other slightly noisy places you may work.</p>
+<h4>A plastic bag</h4>
+<p>No link for this one.<br />
+Keep all of your cables, wires, plugs, and other devices in this bag with you at all times. The bag is to keep them organized and to make it easy to get at on the plane, train or the only thing you need to pull out of your pack to get to work. Traveling changes your patterns so it&#8217;s easy to lose things. It also adds a burden so any additional effort will make it less likely you pull out the laptop and get to work. Keeping all your peripheral items in a single bag will keep them organized and easy for you to find at each location. I use the bag I got when I bought something at the Apple Store.</p>
+<h4>Other stuff</h4>
+<ul>
+<li>A soft case for your laptop. I use this one: <a href="http://www.amazon.com/gp/product/B001D8J7CA/ref=as_li_ss_tl?ie=UTF8&#038;tag=longweek-20&#038;linkCode=as2&#038;camp=217153&#038;creative=399701&#038;creativeASIN=B001D8J7CA">Incase Designs Neoprene Sleeve</a><img src="http://www.assoc-amazon.com/e/ir?t=&#038;l=as2&#038;o=1&#038;a=B001D8J7CA&#038;camp=217153&#038;creative=399701" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>
+<li>A backpack or laptop case. Whatever you like, just smaller than your main suitcase so you can carry it around.</li>
+<li>iPhones and iPod Touch &#8211; these are my test devices. Bring &#8216;em if you need &#8216;em. I also carry an iPad.</li>
+</ul>
+<p>That is it. I really do not carry very much with me. My work rely&#8217;s on internet access as well, which is another ball game and worthy of it&#8217;s own post. I&#8217;ve found most other items I bring /  brought tend to not be all that essential or are easy enough to acquire on the road if you really need them. </p>
+<p>Do you think I missed something? Or have your own must carry item? Let me know in the comments.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/we0kcfGrQEb-Iufv0VMY5xjJke4/0/da"><img src="http://feedads.g.doubleclick.net/~a/we0kcfGrQEb-Iufv0VMY5xjJke4/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/we0kcfGrQEb-Iufv0VMY5xjJke4/1/da"><img src="http://feedads.g.doubleclick.net/~a/we0kcfGrQEb-Iufv0VMY5xjJke4/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=bPX23Oz_Z1o:JCj-QU668WU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=bPX23Oz_Z1o:JCj-QU668WU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=bPX23Oz_Z1o:JCj-QU668WU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=bPX23Oz_Z1o:JCj-QU668WU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=bPX23Oz_Z1o:JCj-QU668WU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=bPX23Oz_Z1o:JCj-QU668WU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/bPX23Oz_Z1o" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/06/03/traveling-programmer-tools-of-the-trade/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/06/03/traveling-programmer-tools-of-the-trade/</feedburner:origLink></item>
+		<item>
+		<title>Supporting multiple iOS versions &amp; devices: is it worth it?</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/K_V1BY9te24/</link>
+		<comments>http://longweekendmobile.com/2011/05/31/supporting-multiple-ios-versions-devices-is-it-worth-it/#comments</comments>
+		<pubDate>Tue, 31 May 2011 05:24:04 +0000</pubDate>
+		<dc:creator>Mark</dc:creator>
+				<category><![CDATA[Technobabble]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[devices]]></category>
+		<category><![CDATA[ios4]]></category>
+		<category><![CDATA[support]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=34069</guid>
+		<description><![CDATA[If you're an indie app developer, you're not just a coder - you plan, design, build, and market apps - and your <em>time</em> is your most precious resource.]]></description>
+			<content:encoded><![CDATA[<p>If you&#8217;re an indie app developer, you&#8217;re not just a coder &#8211; you plan, design, build, and market apps &#8211; and your <em>time</em> is your most precious resource.  This article examines the state of devices &#038; versions in the wild, and what it means for ROI.</p>
+<p> (Spoiler: fun 3D graphs after the jump!)</p>
+<p><span id="more-34069"></span></p>
+<p>The data we&#8217;ve collected is relevant from May 2011.  If you&#8217;re reading this in 2012, buyer beware.  Ok, let&#8217;s get on to it.</p>
+<p>In March, Ross published a great <a href="http://longweekendmobile.com/2011/03/15/the-backwards-compatibility-blues-supporting-ios-3-1-4-2/">how-to article on iOS backward compatibility</a>.  He did that work because all of Long Weekend&#8217;s apps support iOS 3.1+ on all devices.</p>
+<p>I wanted some hard data to rationalize our choices, so I began a survey of our users in aggregate (it&#8217;s all anonymous).  A lot of extra work went into making Animal Phone function on older devices and iOS3.x, due to memory constraints and missing APIs.</p>
+<h2>Device Support</h2>
+<p>(If you&#8217;re only interested in iOS versions, <a href="#versions">skip to that section</a>.)</p>
+<p>The iOS hardware discussion has always been about capabilities: here&#8217;s a snippet of code to detect a camera, there&#8217;s a snippet to detect GPS.  Apple has encouraged this &#8211; check for capabilities, not for devices.</p>
+<p>Yet, the iPad 2&#8242;s dual core A5 and 512MB memory (c&#8217;mon Apple, we wanted 1GB!) make the iPhone 3G feel like playing Doom on a 386.  It&#8217;s not just capabilities anymore &#8211; we need to factor in device generation.</p>
+<p>To disable resource-intensive features, you&#8217;ll need some clever logic to recognize older hardware (side note: we wrote <a href="https://github.com/LongWeekend/Long-Weekend-Dev-Tools/blob/master/LWEUniversalAppHelpers.h">a method that allows comparison logic between models &#038; device classes</a>; you can write code like: <code>if (deviceType >= kLWEiPhone3GS)</code> or <code>if (deviceType &#038; kLWEiPad)</code>).</p>
+<p>So let&#8217;s look at the numbers.</p>
+<div id="attachment_34071" class="wp-caption aligncenter" style="width: 666px"><a href="http://longweekendmobile.com/wp-content/uploads/2011/05/ios_device_by_generation.png"><img src="http://longweekendmobile.com/wp-content/uploads/2011/05/ios_device_by_generation.png" alt="iOS Device Population, by Device Generation" title="iOS Device Population, by Device Generation" width="656" height="478" class="size-full wp-image-34071" /></a><p class="wp-caption-text">Note that approximately 7% of the iOS population is using a iPhone 3G (=iPod Touch 2G) or less.</p></div>
+<p>This is data collected via our survey at the end of May 2011.  The sample size is ~3,500 and global (although our user base tends to be US-focused).</p>
+<p>More than half of our users are using a Retina-enabled device (iPod Touch 4Gs are lumped in with the iPhone 4, even though they have different amounts of memory).  There are a large number of 3GS and iPads 1 out there, just over a quarter of all devices.</p>
+<p>iPad 2s already have made quite a dent &#8211; I suppose consumers had been waiting for the thinner, lighter iPad 2.</p>
+<p><em>Now what about the 6.6% population of iPhone 3G devices?</em></p>
+<p>My <a href="http://www.urbandictionary.com/define.php?term=scientific-wild-ass+guess">SWAG</a> is that Angry Birds brings in between $12,000 and $25,000 a day; $4-9 million annualized.  Following the chart above, 6.6% (the iPhone 3G holders) of their sales is $250k-$660k.  It is <em>absolutely</em> worth it to spend a few weeks making sure your app works on those devices.</p>
+<p>However, if your app is selling $100 a day, you&#8217;d lose $6.60 per day, or $2,409 annualized, by dropping iPhone 3G support.  No one wants to lose a few grand, but how long does it take to make your app work smoothly on a 3G, and how much burden does it add to your test &#038; release cycle?</p>
+<p>Every moment you spend is another moment you&#8217;re not developing <em>another</em> $100/day seller (or, $94.40/day).  Or, another Angry Birds.</p>
+<p>You <strong>will</strong> earn marginal revenue by supporting more devices &#8211; you&#8217;re enlarging the market size.  However, that marginal revenue is usually &#8220;more expensive&#8221; to your business than the opportunity cost of not starting on your next app.</p>
+<p>Support 3G (or any device for that matter) <em>once</em> it appears to be profitable to do so, not in preparation for &#8220;the huge wave of users&#8221; that may never come.  Or, if it&#8217;s one line of code, throw it in.  Even if it&#8217;s no lines of code, state in your app description (at the bottom!) that it may work on the 3G, but isn&#8217;t officially supported.  You&#8217;ll be able to point to that when users tell you your app crashes on their 3G.</p>
+<h2><a name="versions">Version Support</a></h2>
+<p><a href="http://longweekendmobile.com/wp-content/uploads/2011/05/ios_version_by_major_version.png"><img src="http://longweekendmobile.com/wp-content/uploads/2011/05/ios_version_by_major_version.png" alt="iOS Population by major iOS version" title="iOS Population by major iOS version" width="462" height="473" class="aligncenter size-full wp-image-34083" /></a></p>
+<p>Same sort of numbers here.  People not on iOS4.x are around 7%.  Maybe they heard about how iOS4 practically bricks iPhone 3G-generation devices.</p>
+<p>Unfortunately, I didn&#8217;t collect information on what percentage of 3G-era devices had 3.x on them.</p>
+<p>Again, the numbers are greatly in favor of iOS4 &#8211; over 95% &#8211; and I am certain that at least 1 of the 3.2.x devices is my iPad, which I&#8217;ve kept at 3.2.2 for testing purposes.</p>
+<p>I&#8217;ll make the same argument as above about devices: is 7% of your revenue stream significant enough to warrant your time not only implement features missing from the iOS4 API?  Remember that for each version you support, you need to test that version before you release to the store.</p>
+<p>In case you were curious inside of 4.x what the upgrade path has been like, take a look at this:</p>
+<p><a href="http://longweekendmobile.com/wp-content/uploads/2011/05/ios4_version_by_minor_revision.png"><img src="http://longweekendmobile.com/wp-content/uploads/2011/05/ios4_version_by_minor_revision.png" alt="iOS4 Population, by minor revision" title="iOS4 Population, by minor revision" width="490" height="423" class="aligncenter size-full wp-image-34084" /></a></p>
+<p>Ross tells me 4.3.x is when Apple stopped recording all of your locations in the background.  Maybe that&#8217;s why the uptake has been so strong?</p>
+<p>In any case, one could even make a case for building a new app at 4.1+ only; you&#8217;d only lock out about 8% of the total user base.</p>
+<p>Hope these figures help some developers out there determine what they want to support.  As for now, we&#8217;re sticking with iOS3.1+.  We&#8217;ll change that someday, most likely when the next-generation iPhone is released, and we&#8217;ll announce it here.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/I4dO9zg33xTMibCnvguJwe9p1SA/0/da"><img src="http://feedads.g.doubleclick.net/~a/I4dO9zg33xTMibCnvguJwe9p1SA/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/I4dO9zg33xTMibCnvguJwe9p1SA/1/da"><img src="http://feedads.g.doubleclick.net/~a/I4dO9zg33xTMibCnvguJwe9p1SA/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=K_V1BY9te24:rDoBgQkRwVU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=K_V1BY9te24:rDoBgQkRwVU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=K_V1BY9te24:rDoBgQkRwVU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=K_V1BY9te24:rDoBgQkRwVU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=K_V1BY9te24:rDoBgQkRwVU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=K_V1BY9te24:rDoBgQkRwVU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/K_V1BY9te24" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/05/31/supporting-multiple-ios-versions-devices-is-it-worth-it/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/05/31/supporting-multiple-ios-versions-devices-is-it-worth-it/</feedburner:origLink></item>
+		<item>
+		<title>iPhone App Japanese Flash Adds Cloud Backup and Third Party App Integration</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/XSdA2eTIm8Q/</link>
+		<comments>http://longweekendmobile.com/2011/05/19/japanese-flash-adds-cloud-backup-and-third-party-app-integration/#comments</comments>
+		<pubDate>Thu, 19 May 2011 10:00:17 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[jFlash]]></category>
+		<category><![CDATA[press release]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=33452</guid>
+		<description><![CDATA[Tokyo &#8211; May 19, 2011 &#8211; When learning a language, the process of finding words in reading material or in conversations is a critical part of gaining fluency. The latest update to Japanese Flash makes this process of word discovery easier for iPhone users. Already popular for studying Japanese vocabulary on the iPhone, Japanese Flash [...]]]></description>
+			<content:encoded><![CDATA[<p>Tokyo &#8211; May 19, 2011 &#8211; When learning a language, the process of finding words in reading material or in conversations is a critical part of gaining fluency. The latest update to Japanese Flash makes this process of word discovery easier for iPhone users.</p>
+<p>Already popular for studying Japanese vocabulary on the iPhone, Japanese Flash now adds the ability to automatically display words sent from other apps. Rikai Browser, the leading Japanese-English bilingual browser will be the first app to integrate this feature, with a planned update in June.<span id="more-33452"></span></p>
+<p>“Soon Japanese learners will be able to look up a word on a web page in Rikai Browser, and with one tap launch Japanese Flash. They can then star the word for later and return to reading the web page in Rikai Browser”, stated Ross Sharrott, a Director at Long Weekend, the publishers of Japanese Flash and Rikai Browser.</p>
+<p>The new release also includes backup &#038; restore of user’s study sets to the cloud. This feature lets users transfer voacb sets between multiple devices, such as an iPhone and iPad. Online backup is included free for all users with the upgrade.</p>
+<p>“This is a first step toward sharing your Japanese learning activities with other users. Japanese Flash already lets you tweet words. In future versions we plan to allow users to share self created study sets too,” added Sharrott.</p>
+<p>Japanese Flash comes loaded with over 180 study sets across all skill levels, letting students focus on vocabulary matched to their level. Users can also build study sets using the 150,000 word built-in Japanese-English dictionary.</p>
+<p>The app costs USD $7.99, or JPY 900, and can be found at <a href="http://itunes.apple.com/us/app/japanese-flash/id367216357?mt=8">http://itunes.apple.com/us/app/japanese-flash/id367216357?mt=8</a>.</p>
+<p>###</p>
+<h3>Media Contacts</h3>
+<p>(US)<br />
+Ross Sharrott<br />
+ross@longweekendmobile.com<br />
++1 (609) 388-1593</p>
+<p>(Asia)<br />
+Paul Chapman<br />
+paul@longweekendmobile.com<br />
++61 (435) 490-300</p>
+<p>Links<br />
+Website        	<a href="http://www.japaneseflash.com">http://www.japaneseflash.com</a><br />
+App Store        	<a href="http://itunes.apple.com/us/app/japanese-flash/id367216357?mt=8">http://itunes.apple.com/us/app/japanese-flash/id367216357?mt=8</a></p>
+<h3>About Long Weekend LLC</h3>
+<p>Originally founded during a five-day holiday in Tokyo, Long Weekend is a location independent developer of mobile software. Long Weekend is dedicated to crafting unique &#038; memorable software experiences for mobile devices. A frequent contributor to open source projects, we lecture on mobile software development at university and are hard at work building a “secret weapon” to make animation on iOS easy!</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/7Ho1vpnA98Wp4hn_nuF1cN9yvIE/0/da"><img src="http://feedads.g.doubleclick.net/~a/7Ho1vpnA98Wp4hn_nuF1cN9yvIE/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/7Ho1vpnA98Wp4hn_nuF1cN9yvIE/1/da"><img src="http://feedads.g.doubleclick.net/~a/7Ho1vpnA98Wp4hn_nuF1cN9yvIE/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=XSdA2eTIm8Q:Pr_8n3dRPPw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=XSdA2eTIm8Q:Pr_8n3dRPPw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=XSdA2eTIm8Q:Pr_8n3dRPPw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=XSdA2eTIm8Q:Pr_8n3dRPPw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=XSdA2eTIm8Q:Pr_8n3dRPPw:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=XSdA2eTIm8Q:Pr_8n3dRPPw:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/XSdA2eTIm8Q" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/05/19/japanese-flash-adds-cloud-backup-and-third-party-app-integration/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/05/19/japanese-flash-adds-cloud-backup-and-third-party-app-integration/</feedburner:origLink></item>
+		<item>
+		<title>New Japanese Flash Screenshots</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/Sy3JcJs6G5k/</link>
+		<comments>http://longweekendmobile.com/2011/05/18/new-japanese-flash-screenshots/#comments</comments>
+		<pubDate>Wed, 18 May 2011 12:02:44 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[App Store]]></category>
+		<category><![CDATA[Japanese Flash]]></category>
+		<category><![CDATA[jFlash]]></category>
+		<category><![CDATA[marketing]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=33311</guid>
+		<description><![CDATA[In the App Store, screenshots are your best shot at making conversions happen. Many users read your first line, then scroll down to the screen shots and take a look there. Maybe they then go back and read the rest of your description, maybe they download it right away, but if they didn&#8217;t like the [...]]]></description>
+			<content:encoded><![CDATA[<p>In the App Store, screenshots are your best shot at making conversions happen. Many users read your first line, then scroll down to the screen shots and take a look there. Maybe they then go back and read the rest of your description, maybe they download it right away, but if they didn&#8217;t like the screen shots, they tap the back button and move on to some other app. <a href="http://su.pr/2i0kld">Japanese Flash</a> 1.4 is coming out tomorrow, and we decided it was time for an upgrade to our screen shots.<br />
+<span id="more-33311"></span><br />
+<a href="http://longweekendmobile.com/wp-content/uploads/2011/05/1-how-it-works-sm.png"><img src="http://longweekendmobile.com/wp-content/uploads/2011/05/1-how-it-works-sm.png" alt="How Japanese Flash Works" title="How it works JFlash screen shot" width="480" height="320" class="alignleft size-full wp-image-33312" /></a><br />
+<br/><a href="http://longweekendmobile.com/wp-content/uploads/2011/05/2-data-features-sm.png"><img src="http://longweekendmobile.com/wp-content/uploads/2011/05/2-data-features-sm.png" alt="Japanese Flash Data Features" title="Japanese Flash Data Features" width="480" height="320" class="alignleft size-full wp-image-33313" /></a><br />
+<br/><a href="http://longweekendmobile.com/wp-content/uploads/2011/05/3-new-features-sm.png"><img src="http://longweekendmobile.com/wp-content/uploads/2011/05/3-new-features-sm.png" alt="New Features in jFlash 1.4" title="New Features in jFlash 1.4" width="480" height="320" class="alignleft size-full wp-image-33314" /></a><br />
+<br/><br/></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/mu7b9IzzGA7g2e6AvLrE4mzVGM8/0/da"><img src="http://feedads.g.doubleclick.net/~a/mu7b9IzzGA7g2e6AvLrE4mzVGM8/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/mu7b9IzzGA7g2e6AvLrE4mzVGM8/1/da"><img src="http://feedads.g.doubleclick.net/~a/mu7b9IzzGA7g2e6AvLrE4mzVGM8/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Sy3JcJs6G5k:r3v7UfrpjB0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Sy3JcJs6G5k:r3v7UfrpjB0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Sy3JcJs6G5k:r3v7UfrpjB0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=Sy3JcJs6G5k:r3v7UfrpjB0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Sy3JcJs6G5k:r3v7UfrpjB0:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=Sy3JcJs6G5k:r3v7UfrpjB0:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/Sy3JcJs6G5k" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/05/18/new-japanese-flash-screenshots/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/05/18/new-japanese-flash-screenshots/</feedburner:origLink></item>
+		<item>
+		<title>Making an App Respond to a Custom URL</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/tlZY_tdir80/</link>
+		<comments>http://longweekendmobile.com/2011/05/06/making-an-app-respond-to-a-custom-url/#comments</comments>
+		<pubDate>Fri, 06 May 2011 01:15:02 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Technobabble]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Japanese Flash]]></category>
+		<category><![CDATA[Rikai Browser]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=32439</guid>
+		<description><![CDATA[In this blog post I will share how to add a custom URL to an iPhone App, including how we dealt with punycode and multibyte characters in url strings.]]></description>
+			<content:encoded><![CDATA[<h3>Adding integration to Japanese Flash</h3>
+<p>As I announced in this <a href="http://longweekendmobile.com/2011/05/02/upcoming-features-in-japanese-flash-1-4/">blog post</a>, the 1.4 version of Japanese Flash includes integration for other apps or links in web pages. We added a URL protocol <code>jflash://</code> which when called from another app, such as <a href="http://su.pr/1b7U3f">Rikai Browser</a> (coming soon in version 1.3) will launch Japanese Flash and run a search for the word following <code>jflash://</code>. For example, <code>jflash://日本語</code>, will search for 日本語. </p>
+<p>In this blog post I will share how we did it, including how we dealt with punycode and multibyte characters in url strings.<br />
+<span id="more-32439"></span></p>
+<h3>Adding a Custom URL Protocol</h3>
+<p>Adding a custom url protocol that an app will respond to is a relatively straight forward proposition in iOS. In the info.plist, add a dictionary for the key CFBundleURLTypes like this:</p>
+<p><img src="http://longweekendmobile.com/wp-content/uploads/2011/05/Custom-url-in-info-plist.png" alt="A custom URL protocol in info.plist" title="A custom URL protocol in info.plist" width="465" height="95" class="size-full wp-image-32443" /></p>
+<p>The format you choose in CFBundleURLSchemes determines what the protocol is to open your app and pass along the URL. Here we chose jflash, so jflash://someword will launch Japanese Flash.</p>
+<h3>Dealing with the URL in your app</h3>
+<p>Now our app launches when a user clicks on a jflash link in a web page or another app call that URL.  How do we put that info to use? When your app launches for a custom url protocol, Apple calls the following delegate method in AppDelegate:</p>
+<pre class="brush: objc; title: ;">
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+  NSString *searchTerm = [url unicodeAbsoluteString];
+  searchTerm = [searchTerm stringByReplacingOccurrencesOfString:@&quot;jflash://&quot; withString:@&quot;&quot;];
+  [self.rootViewController switchToSearchWithTerm:searchTerm];
+  return YES;
+}
+</pre>
+<p>This method passes the current application, the URL which was called from the other app, the calling app and a possible annotation. We just take a string so we strip off the jflash:// and search for the string after that.</p>
+<p>For backwards compatibility we also include the old version of the delegate call which simply calls the new version:</p>
+<pre class="brush: objc; title: ;">
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+  return [self application:application openURL:url sourceApplication:nil annotation:nil];
+}
+</pre>
+<h3>What the heck is punycode?</h3>
+<p>You may have noticed the method I used to get the string value of the url: unicodeAbsoluteString. This is not a default method but a category to handle something called <a href="http://en.wikipedia.org/wiki/Punycode">punycode</a>. If you only use regular ascii characters for your own app, this section is solely for your erudition. </p>
+<p>Japanese characters are multibyte and consequently fall outside the range of characters acceptable to a standard URL. iOS handles this by encoding the multibyte characters into punycode. So while I was intially expecting jflash://日本語 to come through, I got jflash://xn--wgv71a119e. Hmmm, now what?</p>
+<p>Turns out, someone else already (mostly) solved our problem. Add the <a href="https://github.com/BigZaphod/IFUnicodeURL">IFUnicodeURL code</a> to your application, and use the handy category unicodeAbsoluteString. There is an unfortunate caveat which I haven&#8217;t yet resolved. The C code which does the conversion does not return correctly if your Optimization level is above None [-O0]. Perhaps one of our readers can lend a hand here?</p>
+<h3>Adding Integration with jFlash to Another App</h3>
+<p>Using this new protocol from another app is very simple. In Rikai Browser, we do something like this:</p>
+<pre class="brush: objc; title: ;">
+if([[UIApplication sharedApplication] canOpenURL:@”jflash://日本語”])
+{
+  [[UIApplication sharedApplication] openURL:@”jflash://日本語”];
+}
+else
+{
+  [self _doSomethingElse];
+}
+</pre>
+<p>The UIApplication singleton will let you know if there is an application capable of handling the jflash:// protocol. This allows you to gracefully handle the case where a user does not have Japanese Flash installed. If you get a YES, tell the UIApplication to go ahead and open it. This will launch Japanese Flash. Easy.</p>
+<p>So there you have it, custom URL schemes, integrating from another app and punycode. If you have a Japanese app of your own, feel free to include integration with Japanese Flash! We&#8217;d also love to announce it on our blog if you do.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/4JQfyZX6cfxJGfxGEDJ6cg0I104/0/da"><img src="http://feedads.g.doubleclick.net/~a/4JQfyZX6cfxJGfxGEDJ6cg0I104/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/4JQfyZX6cfxJGfxGEDJ6cg0I104/1/da"><img src="http://feedads.g.doubleclick.net/~a/4JQfyZX6cfxJGfxGEDJ6cg0I104/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=tlZY_tdir80:qpV98tFI7Ck:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=tlZY_tdir80:qpV98tFI7Ck:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=tlZY_tdir80:qpV98tFI7Ck:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=tlZY_tdir80:qpV98tFI7Ck:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=tlZY_tdir80:qpV98tFI7Ck:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=tlZY_tdir80:qpV98tFI7Ck:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/tlZY_tdir80" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/05/06/making-an-app-respond-to-a-custom-url/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/05/06/making-an-app-respond-to-a-custom-url/</feedburner:origLink></item>
+		<item>
+		<title>Will the iPhone Make Teddy Bears Obsolete?</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/2Q6FD616Sfs/</link>
+		<comments>http://longweekendmobile.com/2011/05/05/will-the-iphone-make-teddy-bears-obsolete/#comments</comments>
+		<pubDate>Thu, 05 May 2011 02:00:12 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[Animal Phone]]></category>
+		<category><![CDATA[Education]]></category>
+		<category><![CDATA[Kids]]></category>
+		<category><![CDATA[Press Releases]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=32291</guid>
+		<description><![CDATA[Children have played with dolls, teddy bears and stuffed toys for generations. A new breed of digital alternatives are winning the hearts and minds of children.]]></description>
+			<content:encoded><![CDATA[<p align="center"><em>Children have played with dolls, teddy bears and stuffed toys for generations.<br />
+A new breed of digital alternatives are winning the hearts and minds of children.<br />
+</em></p>
+<p>New York – Before they even learn to walk, children are now swiping and tapping their way across the entire catalogue of kids apps. From virtual tea parties to simulated phone calls with animals, the latest apps are shifting imaginative play from the toy box to the AppStore.<span id="more-32291"></span></p>
+<p>“My daughter fell in love with ‘monkey’ … to her, he was real” writes Heather Camacho, a stay-at-home mother and reviewer for AppAdvice.com, of her daughter’s experience with the iPhone app Animal Phone.</p>
+<p>Camacho noticed her daughter forming an emotional attachment to the character Graham Gorilla. “She tried showing him her toys and even took him with her when she was doing something naughty.” In fact ‘Graham’ was so real to her daughter that “she told him to be very quiet while she was going where she shouldn’t be.”</p>
+<p>The app Animal Phone lets children make pretend phone calls to talkative and touchable animated characters. Different from other character apps, Animal Phone presents children with a re-imagined phone book interface where they can make and receive calls. Animals even leave voice mails from time to time.</p>
+<p>Heather Leister, known online as the blogger behind TheiPhoneMom.com writes of Animal Phone, “children will have the feeling that they’re making and receiving calls on an iPhone.”</p>
+<p>Previously, young children invested their emotions in physical toys like teddy bears and dolls. But thanks to a strong sense of realism, digital characters like Graham Gorilla are finding a place in their hearts too.</p>
+<p>According to Dr Laura Kauffman on Education.com, a counseling psychologist specialising in supporting kids and teens, “research has shown that pretend play is very important for a young child&#8217;s development,” adding that “pretend play inspires the imagination and thinking skills.”</p>
+<p>Unlike games with structured levels and goals, apps that are believable and ‘open ended’ put children in the driver’s seat. Kauffman says “pretend play naturally involves the question, ‘And, what happens next?’ If the right creative materials are available, the sky is the limit!”</p>
+<p>###</p>
+<h3>Media Contacts</h3>
+<p>(US)<br />
+Ross Sharrott<br />
+ross [at] longweekendmobile.com<br />
++1 (609) 388-1593<br />
+(Asia)<br />
+Paul Chapman<br />
+paul [at] longweekendmobile.com<br />
++61 (435) 490-300</p>
+<p>Website        	<a href="http://www.animalphoneapp.com">http://www.animalphoneapp.com</a><br />
+App Store        	<a href="http://itunes.apple.com/us/app/animal-phone/id425798070?mt=8">http://itunes.apple.com/us/app/animal-phone/id425798070?mt=8</a><br />
+Press Kit        	<a href="http://longweekendmobile.com/press-kits/animal-phone-press-kit/">http://longweekendmobile.com/press-kits/animal-phone-press-kit/</a></p>
+<p><object width="500" height="306"><param name="movie" value="http://www.youtube.com/v/6TdTByo1i1A?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/6TdTByo1i1A?version=3" type="application/x-shockwave-flash" width="500" height="306" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<h3>About Long Weekend LLC</h3>
+<p>Originally founded during a five-day holiday in Tokyo, Long Weekend is a location independent developer of mobile software. Long Weekend is dedicated to crafting unique &#038; memorable software experiences for mobile devices. A frequent contributor to open source projects, we lecture on mobile software development at university and are hard at work building a “secret weapon” to make animation on iOS easy!</p>
+<h3>About Conduct</h3>
+<p>Conduct offer services in the three key areas of the digital arena: Online, Mobile and Creative. Conduct excel in creative, digital strategy and technical delivery expertise to develop mobile and web applications underpinned by a strong user experience and project management approach to any solution. Conduct was co-founded by Charlie Pohl and Simon Krambousanos who first put Conduct on the map with their award winning work on The Hidden Park iPhone application featured by Apple.</p>
+<h3>Sources</h3>
+<p>Hannah Camacho<br />
+www.appadvice.com/appnn/2011/04/amaze-life-animal-phone<br />
+Heather Leister<br />
+www.theiphonemom.com/animal-phone<br />
+Dr Laura C. Kauffman, Ph.D.<br />
+www.education.com/question/make-believe-play-important-pre-school-age-kids/</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/YGkQTiwnrbsc0bOqQ12Aa4G6WTc/0/da"><img src="http://feedads.g.doubleclick.net/~a/YGkQTiwnrbsc0bOqQ12Aa4G6WTc/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/YGkQTiwnrbsc0bOqQ12Aa4G6WTc/1/da"><img src="http://feedads.g.doubleclick.net/~a/YGkQTiwnrbsc0bOqQ12Aa4G6WTc/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=2Q6FD616Sfs:f8CxIFQc8sc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=2Q6FD616Sfs:f8CxIFQc8sc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=2Q6FD616Sfs:f8CxIFQc8sc:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=2Q6FD616Sfs:f8CxIFQc8sc:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=2Q6FD616Sfs:f8CxIFQc8sc:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=2Q6FD616Sfs:f8CxIFQc8sc:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/2Q6FD616Sfs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/05/05/will-the-iphone-make-teddy-bears-obsolete/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/05/05/will-the-iphone-make-teddy-bears-obsolete/</feedburner:origLink></item>
+		<item>
+		<title>Animal Phone Video Review on crazymikesapps</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/ZRH6knHN4hg/</link>
+		<comments>http://longweekendmobile.com/2011/05/04/animal-phone-video-review-on-crazymikesapps/#comments</comments>
+		<pubDate>Wed, 04 May 2011 04:50:18 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[Animal Phone]]></category>
+		<category><![CDATA[Kids]]></category>
+		<category><![CDATA[review]]></category>
+		<category><![CDATA[videos]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=32282</guid>
+		<description><![CDATA[Animal Phone was recently review on crazymikesapps.com. Watch the video of the review.]]></description>
+			<content:encoded><![CDATA[<p>Animal Phone was recently review on crazymikesapps.com. Watch the video of the review here:</p>
+<p><object width="500" height="306"><param name="movie" value="http://www.youtube.com/v/MpMmGX7MmXY?version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/MpMmGX7MmXY?version=3" type="application/x-shockwave-flash" width="500" height="306" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p>Check out the video and written review <a href="http://www.crazymikesapps.com/animals-call-you-with-animal-phone-iphone-kids-app/">here</a>.</p>
+<p><a href="http://click.linksynergy.com/fs-bin/stat?id=qGx1VSppku4&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fanimal-phone%252Fid425798070%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&amp;U1=CRAZYMIKESAPPS_REVIEW_BLOG_POST"><img class="size-full wp-image-29453 aligncenter" title="available_in_app_store" src="/wp-content/uploads/2010/04/available_in_app_store.png" alt="Available In App Store" width="200" height="69" /></a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/_pM91_x2HB3sYOvXrkzzFKi08Fs/0/da"><img src="http://feedads.g.doubleclick.net/~a/_pM91_x2HB3sYOvXrkzzFKi08Fs/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/_pM91_x2HB3sYOvXrkzzFKi08Fs/1/da"><img src="http://feedads.g.doubleclick.net/~a/_pM91_x2HB3sYOvXrkzzFKi08Fs/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZRH6knHN4hg:Bmr68ZxUHrk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZRH6knHN4hg:Bmr68ZxUHrk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZRH6knHN4hg:Bmr68ZxUHrk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=ZRH6knHN4hg:Bmr68ZxUHrk:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=ZRH6knHN4hg:Bmr68ZxUHrk:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=ZRH6knHN4hg:Bmr68ZxUHrk:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/ZRH6knHN4hg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/05/04/animal-phone-video-review-on-crazymikesapps/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/05/04/animal-phone-video-review-on-crazymikesapps/</feedburner:origLink></item>
+		<item>
+		<title>Upcoming Features in Japanese Flash 1.4</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/Zn4uYCGfu7k/</link>
+		<comments>http://longweekendmobile.com/2011/05/02/upcoming-features-in-japanese-flash-1-4/#comments</comments>
+		<pubDate>Mon, 02 May 2011 08:34:39 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[Japanese Flash]]></category>
+		<category><![CDATA[jFlash]]></category>
+		<category><![CDATA[Upcoming]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=32027</guid>
+		<description><![CDATA[A sneak preview of the cool new features coming soon in Japanese Flash 1.4.]]></description>
+			<content:encoded><![CDATA[<p>While we have been focusing on <a href="http://click.linksynergy.com/fs-bin/stat?id=qGx1VSppku4&#038;offerid=146261&#038;type=3&#038;subid=0&#038;tmpid=1826&#038;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fanimal-phone%252Fid425798070%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#038;U1=JFLASH_UPCOMING_BLOG_POST">Animal Phone</a> recently, we are also taking the time to make a new version of <a href="http://click.linksynergy.com/fs-bin/stat?id=qGx1VSppku4&#038;offerid=146261&#038;type=3&#038;subid=0&#038;tmpid=1826&#038;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fid367216357%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#038;u1=JFLASH_UPCOMING_BLOG_POST">Japanese Flash</a>. I am particularly excited for this version because it will include two very cool new features that I&#8217;ve been wanting to make for a while.<br />
+<span id="more-32027"></span><br />
+<strong>So what&#8217;s the cool new stuff?</strong></p>
+<h3>Backup &#038; Restore Custom Study Sets</h3>
+<p>Some of you Japanese Flash faithful have asked for the ability to share study sets across multiple devices. We also wanted to do this so we can stop deleting our own study sets while we test the app and make sure it works smoothly for you. In Japanese Flash 1.4, you will be able to backup and restore your custom study sets!  You might want to use jFlash on an iPhone and iPad, for example. </p>
+<p>The system transfers custom study sets only, and does not transfer any progress information. This is also a first step to the possible idea of sharing study sets between users. We hope you like it.</p>
+<h3>Integration With Other Apps</h3>
+<p>We think Japanese Flash is the best way to study Japanese vocabulary. We also know there are other great apps out there for reading or learning Japanese, including <a href="http://click.linksynergy.com/fs-bin/stat?id=qGx1VSppku4&#038;offerid=146261&#038;type=3&#038;subid=0&#038;tmpid=1826&#038;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Frikai-browser-for-ipad-read%252Fid380853144%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#038;u1=JFLASH_UPCOMING_BLOG_POST">Rikai Browser</a>, our excellent web browser with a built in Japanese to English dictionary. When using those apps, you often want to remember a new word you come across while reading. What if you could combine both? Japanese Flash will now allow other apps to integrate dictionary search into their own apps.</p>
+<p>How does it work? Simply follow a link like jflash://JAPANESE_WORD to open jFlash from another app and launch a search for the word. For example, the link jflash://日本語 will launch jflash and search for 日本語. </p>
+<p>This feature will be built into Rikai Browser soon; ask your other favorite apps&#8217; developers to include this functionality as well. Let&#8217;s build the perfect environment for learning, reviewing and retaining Japanese!</p>
+<p>We also included a few dictionary updates and other bug fixes as well. I hope you love the new version. If you have any other ideas for new updates, let us know on <a href="http://getsatisfaction.com/longweekend">getSatisfaction.com</a>.</p>
+<p>We are doing final testing next week and should be submitting to Apple then. Look for the new version to hit the App Store around May 20.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/HVvQYeM9n-64BObm7NcpbI7lC_Y/0/da"><img src="http://feedads.g.doubleclick.net/~a/HVvQYeM9n-64BObm7NcpbI7lC_Y/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/HVvQYeM9n-64BObm7NcpbI7lC_Y/1/da"><img src="http://feedads.g.doubleclick.net/~a/HVvQYeM9n-64BObm7NcpbI7lC_Y/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Zn4uYCGfu7k:8_xMl1XqQbU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Zn4uYCGfu7k:8_xMl1XqQbU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Zn4uYCGfu7k:8_xMl1XqQbU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=Zn4uYCGfu7k:8_xMl1XqQbU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=Zn4uYCGfu7k:8_xMl1XqQbU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=Zn4uYCGfu7k:8_xMl1XqQbU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/Zn4uYCGfu7k" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/05/02/upcoming-features-in-japanese-flash-1-4/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/05/02/upcoming-features-in-japanese-flash-1-4/</feedburner:origLink></item>
+		<item>
+		<title>New Review on theiPhoneAddict</title>
+		<link>http://feedproxy.google.com/~r/LongWeekend/~3/q8mAm8lQbWE/</link>
+		<comments>http://longweekendmobile.com/2011/04/29/new-review-on-theiphoneaddict/#comments</comments>
+		<pubDate>Thu, 28 Apr 2011 16:22:12 +0000</pubDate>
+		<dc:creator>Ross</dc:creator>
+				<category><![CDATA[Products]]></category>
+		<category><![CDATA[Animal Phone]]></category>
+		<category><![CDATA[Kids]]></category>
+		<category><![CDATA[review]]></category>
+		<category><![CDATA[Write Ups]]></category>
+
+		<guid isPermaLink="false">http://longweekendmobile.com/?p=31876</guid>
+		<description><![CDATA[Animal Phone just got a great review on theiphoneaddict.com. Here is a highlight from the review: This app is perfect for entertaining your bored child in the supermarket, doctors office etc. It’s free, try it out and reward your child with more characters in the future. Thank you so much for the review. If you [...]]]></description>
+			<content:encoded><![CDATA[<p>Animal Phone just got a great review on <a href="http://appadvice.com/appnn/2011/04/amaze-life-animal-phone">theiphoneaddict.com</a>. Here is a highlight from the review:</p>
+<blockquote><p>This app is perfect for entertaining your bored child in the supermarket, doctors office etc. It’s free, try it out and reward your child with more characters in the future.</p></blockquote>
+<p><span id="more-31876"></span><br />
+Thank you so much for the review. If you haven&#8217;t downloaded Animal Phone yet:<br />
+<a href="http://click.linksynergy.com/fs-bin/stat?id=qGx1VSppku4&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fanimal-phone%252Fid425798070%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&amp;U1=IPHONEADDICT_REVIEW_BLOG_POST">get it here for free!</a></p>
+<p>Read the full review <a href="http://www.theiphoneaddict.com/iphone-apps/app-review-animal-phone-keeps-your-child-entertained-while-you-relax/">here</a>.</p>
+<p><a href="http://longweekendmobile.com/wp-content/uploads/2011/04/Screen-shot-2011-04-28-at-12.11.26-PM.png"><img class="aligncenter size-full wp-image-31878" title="Animal Phone review on theiphoneaddict" src="http://longweekendmobile.com/wp-content/uploads/2011/04/Screen-shot-2011-04-28-at-12.11.26-PM.png" alt="Animal Phone review on theiphoneaddict" width="688" height="617" /></a></p>
+<p><a href="http://click.linksynergy.com/fs-bin/stat?id=qGx1VSppku4&amp;offerid=146261&amp;type=3&amp;subid=0&amp;tmpid=1826&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fanimal-phone%252Fid425798070%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&amp;U1=IPHONEADDICT_REVIEW_BLOG_POST"><img class="size-full wp-image-29453 aligncenter" title="available_in_app_store" src="/wp-content/uploads/2010/04/available_in_app_store.png" alt="Available In App Store" width="200" height="69" /></a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/V1QdDrudIfeOYwktk0dpF2WMdhc/0/da"><img src="http://feedads.g.doubleclick.net/~a/V1QdDrudIfeOYwktk0dpF2WMdhc/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/V1QdDrudIfeOYwktk0dpF2WMdhc/1/da"><img src="http://feedads.g.doubleclick.net/~a/V1QdDrudIfeOYwktk0dpF2WMdhc/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/LongWeekend?a=q8mAm8lQbWE:KgVv0uXX-oY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=q8mAm8lQbWE:KgVv0uXX-oY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/LongWeekend?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=q8mAm8lQbWE:KgVv0uXX-oY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=q8mAm8lQbWE:KgVv0uXX-oY:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/LongWeekend?a=q8mAm8lQbWE:KgVv0uXX-oY:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/LongWeekend?i=q8mAm8lQbWE:KgVv0uXX-oY:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/LongWeekend/~4/q8mAm8lQbWE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://longweekendmobile.com/2011/04/29/new-review-on-theiphoneaddict/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://longweekendmobile.com/2011/04/29/new-review-on-theiphoneaddict/</feedburner:origLink></item>
+	</channel>
+</rss>

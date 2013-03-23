@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E57C29EC141F976000722EFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57C29EB141F976000722EFE /* UIKit.framework */; };
+		E57C29EE141F976000722EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57C29ED141F976000722EFE /* Foundation.framework */; };
+		E57C29F0141F976000722EFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57C29EF141F976000722EFE /* CoreGraphics.framework */; };
+		E57C29F6141F976000722EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E57C29F4141F976000722EFE /* InfoPlist.strings */; };
+		E57C29F8141F976000722EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C29F7141F976000722EFE /* main.m */; };
+		E57C29FC141F976000722EFE /* Lab3_Task2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C29FB141F976000722EFE /* Lab3_Task2AppDelegate.m */; };
+		E57C29FF141F976000722EFE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57C29FD141F976000722EFE /* MainWindow.xib */; };
+		E57C2A02141F976000722EFE /* Lab3_Task2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C2A01141F976000722EFE /* Lab3_Task2ViewController.m */; };
+		E57C2A05141F976000722EFE /* Lab3_Task2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57C2A03141F976000722EFE /* Lab3_Task2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E57C29E7141F976000722EFE /* Lab3-Task2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab3-Task2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57C29EB141F976000722EFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E57C29ED141F976000722EFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E57C29EF141F976000722EFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E57C29F3141F976000722EFE /* Lab3-Task2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab3-Task2-Info.plist"; sourceTree = "<group>"; };
+		E57C29F5141F976000722EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E57C29F7141F976000722EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E57C29F9141F976000722EFE /* Lab3-Task2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab3-Task2-Prefix.pch"; sourceTree = "<group>"; };
+		E57C29FA141F976000722EFE /* Lab3_Task2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lab3_Task2AppDelegate.h; sourceTree = "<group>"; };
+		E57C29FB141F976000722EFE /* Lab3_Task2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3_Task2AppDelegate.m; sourceTree = "<group>"; };
+		E57C29FE141F976000722EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E57C2A00141F976000722EFE /* Lab3_Task2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lab3_Task2ViewController.h; sourceTree = "<group>"; };
+		E57C2A01141F976000722EFE /* Lab3_Task2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3_Task2ViewController.m; sourceTree = "<group>"; };
+		E57C2A04141F976000722EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Lab3_Task2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E57C29E4141F976000722EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57C29EC141F976000722EFE /* UIKit.framework in Frameworks */,
+				E57C29EE141F976000722EFE /* Foundation.framework in Frameworks */,
+				E57C29F0141F976000722EFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E57C29DC141F975E00722EFE = {
+			isa = PBXGroup;
+			children = (
+				E57C29F1141F976000722EFE /* Lab3-Task2 */,
+				E57C29EA141F976000722EFE /* Frameworks */,
+				E57C29E8141F976000722EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E57C29E8141F976000722EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E57C29E7141F976000722EFE /* Lab3-Task2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E57C29EA141F976000722EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E57C29EB141F976000722EFE /* UIKit.framework */,
+				E57C29ED141F976000722EFE /* Foundation.framework */,
+				E57C29EF141F976000722EFE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E57C29F1141F976000722EFE /* Lab3-Task2 */ = {
+			isa = PBXGroup;
+			children = (
+				E57C29FA141F976000722EFE /* Lab3_Task2AppDelegate.h */,
+				E57C29FB141F976000722EFE /* Lab3_Task2AppDelegate.m */,
+				E57C29FD141F976000722EFE /* MainWindow.xib */,
+				E57C2A00141F976000722EFE /* Lab3_Task2ViewController.h */,
+				E57C2A01141F976000722EFE /* Lab3_Task2ViewController.m */,
+				E57C2A03141F976000722EFE /* Lab3_Task2ViewController.xib */,
+				E57C29F2141F976000722EFE /* Supporting Files */,
+			);
+			path = "Lab3-Task2";
+			sourceTree = "<group>";
+		};
+		E57C29F2141F976000722EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E57C29F3141F976000722EFE /* Lab3-Task2-Info.plist */,
+				E57C29F4141F976000722EFE /* InfoPlist.strings */,
+				E57C29F7141F976000722EFE /* main.m */,
+				E57C29F9141F976000722EFE /* Lab3-Task2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E57C29E6141F976000722EFE /* Lab3-Task2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57C2A08141F976000722EFE /* Build configuration list for PBXNativeTarget "Lab3-Task2" */;
+			buildPhases = (
+				E57C29E3141F976000722EFE /* Sources */,
+				E57C29E4141F976000722EFE /* Frameworks */,
+				E57C29E5141F976000722EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab3-Task2";
+			productName = "Lab3-Task2";
+			productReference = E57C29E7141F976000722EFE /* Lab3-Task2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E57C29DE141F975E00722EFE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E57C29E1141F975E00722EFE /* Build configuration list for PBXProject "Lab3-Task2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E57C29DC141F975E00722EFE;
+			productRefGroup = E57C29E8141F976000722EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E57C29E6141F976000722EFE /* Lab3-Task2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E57C29E5141F976000722EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57C29F6141F976000722EFE /* InfoPlist.strings in Resources */,
+				E57C29FF141F976000722EFE /* MainWindow.xib in Resources */,
+				E57C2A05141F976000722EFE /* Lab3_Task2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E57C29E3141F976000722EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57C29F8141F976000722EFE /* main.m in Sources */,
+				E57C29FC141F976000722EFE /* Lab3_Task2AppDelegate.m in Sources */,
+				E57C2A02141F976000722EFE /* Lab3_Task2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E57C29F4141F976000722EFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57C29F5141F976000722EFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E57C29FD141F976000722EFE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57C29FE141F976000722EFE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E57C2A03141F976000722EFE /* Lab3_Task2ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57C2A04141F976000722EFE /* en */,
+			);
+			name = Lab3_Task2ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E57C2A06141F976000722EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E57C2A07141F976000722EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E57C2A09141F976000722EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab3-Task2/Lab3-Task2-Prefix.pch";
+				INFOPLIST_FILE = "Lab3-Task2/Lab3-Task2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E57C2A0A141F976000722EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab3-Task2/Lab3-Task2-Prefix.pch";
+				INFOPLIST_FILE = "Lab3-Task2/Lab3-Task2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E57C29E1141F975E00722EFE /* Build configuration list for PBXProject "Lab3-Task2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57C2A06141F976000722EFE /* Debug */,
+				E57C2A07141F976000722EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E57C2A08141F976000722EFE /* Build configuration list for PBXNativeTarget "Lab3-Task2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57C2A09141F976000722EFE /* Debug */,
+				E57C2A0A141F976000722EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E57C29DE141F975E00722EFE /* Project object */;
+}

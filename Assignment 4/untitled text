@@ -1,0 +1,64 @@
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *text1 = [[NSString alloc]init];
+    NSString *text2 = [[NSString alloc]init];
+    NSString *time = [[NSString alloc]init];
+    NSArray *textArray = [[NSArray alloc]init];
+    NSMutableString *coords = [[NSMutableString alloc]init];
+    
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+
+    if (cell == nil) 
+    {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+    }
+
+    NSUInteger row = [indexPath row];
+
+    @try
+    {
+        textArray = [[_listData objectAtIndex:row] componentsSeparatedByString:@";"];
+        
+        text1 = [textArray objectAtIndex:0];
+        text2 = [textArray objectAtIndex:1];
+        time  = [textArray objectAtIndex:2];
+        
+        NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+        [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+        
+        NSNumber *Latitude = [formatter numberFromString:text1];
+        NSNumber *Longitude = [formatter numberFromString:text2];
+//        NSLog(@"%@,%@",Latitude,Longitude);
+
+        if((Latitude != nil) &&
+           ([Latitude floatValue] <= 180.0) && 
+           ([Latitude floatValue] >= -180.0) &&  
+           (Longitude != nil)  &&  
+           ([Longitude floatValue] <= 180.0)&&
+           ([Longitude floatValue] >= -180.0) )
+        {
+            [coords appendString:text1];
+            [coords appendString:@", "];
+            [coords appendString:text2];
+            
+            //set uitableview's title and subtitle 
+            cell.textLabel.text = coords;
+            cell.detailTextLabel.text = time;
+        }
+
+        [formatter release];;
+    }
+    @catch(NSException *e)
+    {
+        NSLog(@"Exception: %@",e);
+    }
+    @finally 
+    {
+        
+    }
+    
+
+    // Configure the cell.
+    return cell;
+}

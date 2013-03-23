@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.0B</string>
+	<key>settings</key>
+	<dict>
+		<key>user_preferences</key>
+		<dict>
+			<key>favorite_app</key>
+			<string>Japanese Flash</string>
+			<key>other_apps</key>
+			<array>
+				<string>Rikai Browser</string>
+				<string>Animal Phone</string>
+				<string>Swinburne</string>
+			</array>
+		</dict>
+		<key>last_update</key>
+		<date>2011-06-06T02:41:19Z</date>
+		<key>last_run</key>
+		<date>2011-06-02T12:20:02Z</date>
+		<key>user_name</key>
+		<string>LONGWEEKEND</string>
+		<key>openid_token</key>
+		<string>3e57267959426658416d7c3075647c416e6b2f71216d3c7e345662246c</string>
+	</dict>
+</dict>
+</plist>

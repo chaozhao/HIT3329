@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600336D01416265C00BC9E5C /* actors_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 600336CF1416265C00BC9E5C /* actors_list.txt */; };
+		60576D93140CE4AF00FC1E88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60576D92140CE4AF00FC1E88 /* UIKit.framework */; };
+		60576D95140CE4AF00FC1E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60576D94140CE4AF00FC1E88 /* Foundation.framework */; };
+		60576D97140CE4AF00FC1E88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60576D96140CE4AF00FC1E88 /* CoreGraphics.framework */; };
+		60576D9D140CE4AF00FC1E88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60576D9B140CE4AF00FC1E88 /* InfoPlist.strings */; };
+		60576DA0140CE4AF00FC1E88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60576D9F140CE4AF00FC1E88 /* main.m */; };
+		60576DA3140CE4AF00FC1E88 /* Lab3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60576DA2140CE4AF00FC1E88 /* Lab3AppDelegate.m */; };
+		60576DA6140CE4AF00FC1E88 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60576DA4140CE4AF00FC1E88 /* MainWindow.xib */; };
+		60576DA9140CE4AF00FC1E88 /* Lab3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60576DA8140CE4AF00FC1E88 /* Lab3ViewController.m */; };
+		60576DAC140CE4AF00FC1E88 /* Lab3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60576DAA140CE4AF00FC1E88 /* Lab3ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600336CF1416265C00BC9E5C /* actors_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = actors_list.txt; sourceTree = "<group>"; };
+		60576D8E140CE4AF00FC1E88 /* Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60576D92140CE4AF00FC1E88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60576D94140CE4AF00FC1E88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60576D96140CE4AF00FC1E88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60576D9A140CE4AF00FC1E88 /* Lab3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab3-Info.plist"; sourceTree = "<group>"; };
+		60576D9C140CE4AF00FC1E88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60576D9E140CE4AF00FC1E88 /* Lab3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab3-Prefix.pch"; sourceTree = "<group>"; };
+		60576D9F140CE4AF00FC1E88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60576DA1140CE4AF00FC1E88 /* Lab3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lab3AppDelegate.h; sourceTree = "<group>"; };
+		60576DA2140CE4AF00FC1E88 /* Lab3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3AppDelegate.m; sourceTree = "<group>"; };
+		60576DA5140CE4AF00FC1E88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		60576DA7140CE4AF00FC1E88 /* Lab3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lab3ViewController.h; sourceTree = "<group>"; };
+		60576DA8140CE4AF00FC1E88 /* Lab3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3ViewController.m; sourceTree = "<group>"; };
+		60576DAB140CE4AF00FC1E88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Lab3ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60576D8B140CE4AF00FC1E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60576D93140CE4AF00FC1E88 /* UIKit.framework in Frameworks */,
+				60576D95140CE4AF00FC1E88 /* Foundation.framework in Frameworks */,
+				60576D97140CE4AF00FC1E88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60576D83140CE4AF00FC1E88 = {
+			isa = PBXGroup;
+			children = (
+				60576D98140CE4AF00FC1E88 /* Lab3 */,
+				60576D91140CE4AF00FC1E88 /* Frameworks */,
+				60576D8F140CE4AF00FC1E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60576D8F140CE4AF00FC1E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60576D8E140CE4AF00FC1E88 /* Lab3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60576D91140CE4AF00FC1E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60576D92140CE4AF00FC1E88 /* UIKit.framework */,
+				60576D94140CE4AF00FC1E88 /* Foundation.framework */,
+				60576D96140CE4AF00FC1E88 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60576D98140CE4AF00FC1E88 /* Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				60576DA1140CE4AF00FC1E88 /* Lab3AppDelegate.h */,
+				60576DA2140CE4AF00FC1E88 /* Lab3AppDelegate.m */,
+				60576DA4140CE4AF00FC1E88 /* MainWindow.xib */,
+				600336CF1416265C00BC9E5C /* actors_list.txt */,
+				60576DA7140CE4AF00FC1E88 /* Lab3ViewController.h */,
+				60576DA8140CE4AF00FC1E88 /* Lab3ViewController.m */,
+				60576DAA140CE4AF00FC1E88 /* Lab3ViewController.xib */,
+				60576D99140CE4AF00FC1E88 /* Supporting Files */,
+			);
+			path = Lab3;
+			sourceTree = "<group>";
+		};
+		60576D99140CE4AF00FC1E88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60576D9A140CE4AF00FC1E88 /* Lab3-Info.plist */,
+				60576D9B140CE4AF00FC1E88 /* InfoPlist.strings */,
+				60576D9E140CE4AF00FC1E88 /* Lab3-Prefix.pch */,
+				60576D9F140CE4AF00FC1E88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60576D8D140CE4AF00FC1E88 /* Lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60576DAF140CE4AF00FC1E88 /* Build configuration list for PBXNativeTarget "Lab3" */;
+			buildPhases = (
+				60576D8A140CE4AF00FC1E88 /* Sources */,
+				60576D8B140CE4AF00FC1E88 /* Frameworks */,
+				60576D8C140CE4AF00FC1E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab3;
+			productName = Lab3;
+			productReference = 60576D8E140CE4AF00FC1E88 /* Lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60576D85140CE4AF00FC1E88 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 60576D88140CE4AF00FC1E88 /* Build configuration list for PBXProject "Lab3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60576D83140CE4AF00FC1E88;
+			productRefGroup = 60576D8F140CE4AF00FC1E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60576D8D140CE4AF00FC1E88 /* Lab3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60576D8C140CE4AF00FC1E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60576D9D140CE4AF00FC1E88 /* InfoPlist.strings in Resources */,
+				60576DA6140CE4AF00FC1E88 /* MainWindow.xib in Resources */,
+				60576DAC140CE4AF00FC1E88 /* Lab3ViewController.xib in Resources */,
+				600336D01416265C00BC9E5C /* actors_list.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60576D8A140CE4AF00FC1E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60576DA0140CE4AF00FC1E88 /* main.m in Sources */,
+				60576DA3140CE4AF00FC1E88 /* Lab3AppDelegate.m in Sources */,
+				60576DA9140CE4AF00FC1E88 /* Lab3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60576D9B140CE4AF00FC1E88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60576D9C140CE4AF00FC1E88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60576DA4140CE4AF00FC1E88 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60576DA5140CE4AF00FC1E88 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		60576DAA140CE4AF00FC1E88 /* Lab3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60576DAB140CE4AF00FC1E88 /* en */,
+			);
+			name = Lab3ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60576DAD140CE4AF00FC1E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60576DAE140CE4AF00FC1E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		60576DB0140CE4AF00FC1E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab3/Lab3-Prefix.pch";
+				INFOPLIST_FILE = "Lab3/Lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60576DB1140CE4AF00FC1E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab3/Lab3-Prefix.pch";
+				INFOPLIST_FILE = "Lab3/Lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60576D88140CE4AF00FC1E88 /* Build configuration list for PBXProject "Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60576DAD140CE4AF00FC1E88 /* Debug */,
+				60576DAE140CE4AF00FC1E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60576DAF140CE4AF00FC1E88 /* Build configuration list for PBXNativeTarget "Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60576DB0140CE4AF00FC1E88 /* Debug */,
+				60576DB1140CE4AF00FC1E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60576D85140CE4AF00FC1E88 /* Project object */;
+}

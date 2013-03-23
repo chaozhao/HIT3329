@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5641073145E5E4C002F1332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5641072145E5E4C002F1332 /* UIKit.framework */; };
+		E5641075145E5E4C002F1332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5641074145E5E4C002F1332 /* Foundation.framework */; };
+		E5641077145E5E4C002F1332 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5641076145E5E4C002F1332 /* CoreGraphics.framework */; };
+		E564107D145E5E4C002F1332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E564107B145E5E4C002F1332 /* InfoPlist.strings */; };
+		E564107F145E5E4C002F1332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E564107E145E5E4C002F1332 /* main.m */; };
+		E5641083145E5E4C002F1332 /* Failure_RecoveryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5641082145E5E4C002F1332 /* Failure_RecoveryAppDelegate.m */; };
+		E5641086145E5E4C002F1332 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5641084145E5E4C002F1332 /* MainWindow.xib */; };
+		E5641089145E5E4C002F1332 /* Failure_RecoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5641088145E5E4C002F1332 /* Failure_RecoveryViewController.m */; };
+		E564108C145E5E4C002F1332 /* Failure_RecoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E564108A145E5E4C002F1332 /* Failure_RecoveryViewController.xib */; };
+		E56410A8145E5E7E002F1332 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E5641093145E5E7E002F1332 /* ASIAuthenticationDialog.m */; };
+		E56410A9145E5E7E002F1332 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5641096145E5E7E002F1332 /* ASIDataCompressor.m */; };
+		E56410AA145E5E7E002F1332 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5641098145E5E7E002F1332 /* ASIDataDecompressor.m */; };
+		E56410AB145E5E7E002F1332 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E564109A145E5E7E002F1332 /* ASIDownloadCache.m */; };
+		E56410AC145E5E7E002F1332 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E564109C145E5E7E002F1332 /* ASIFormDataRequest.m */; };
+		E56410AD145E5E7E002F1332 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E564109E145E5E7E002F1332 /* ASIHTTPRequest.m */; };
+		E56410AE145E5E7E002F1332 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E56410A2145E5E7E002F1332 /* ASIInputStream.m */; };
+		E56410AF145E5E7E002F1332 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E56410A4145E5E7E002F1332 /* ASINetworkQueue.m */; };
+		E56410B3145E5ECD002F1332 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56410B2145E5ECD002F1332 /* CFNetwork.framework */; };
+		E56410B5145E5ED4002F1332 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56410B4145E5ED4002F1332 /* MobileCoreServices.framework */; };
+		E56410B7145E5EDE002F1332 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56410B6145E5EDD002F1332 /* SystemConfiguration.framework */; };
+		E56410BD145E5F1C002F1332 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E56410BC145E5F1C002F1332 /* libz.dylib */; };
+		E56410C9145E6271002F1332 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E56410C8145E6271002F1332 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E564106E145E5E4C002F1332 /* Failure Recovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Failure Recovery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5641072145E5E4C002F1332 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5641074145E5E4C002F1332 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5641076145E5E4C002F1332 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E564107A145E5E4C002F1332 /* Failure Recovery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Failure Recovery-Info.plist"; sourceTree = "<group>"; };
+		E564107C145E5E4C002F1332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E564107E145E5E4C002F1332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5641080145E5E4C002F1332 /* Failure Recovery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Failure Recovery-Prefix.pch"; sourceTree = "<group>"; };
+		E5641081145E5E4C002F1332 /* Failure_RecoveryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Failure_RecoveryAppDelegate.h; sourceTree = "<group>"; };
+		E5641082145E5E4C002F1332 /* Failure_RecoveryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Failure_RecoveryAppDelegate.m; sourceTree = "<group>"; };
+		E5641085145E5E4C002F1332 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E5641087145E5E4C002F1332 /* Failure_RecoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Failure_RecoveryViewController.h; sourceTree = "<group>"; };
+		E5641088145E5E4C002F1332 /* Failure_RecoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Failure_RecoveryViewController.m; sourceTree = "<group>"; };
+		E564108B145E5E4C002F1332 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Failure_RecoveryViewController.xib; sourceTree = "<group>"; };
+		E5641092145E5E7E002F1332 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		E5641093145E5E7E002F1332 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		E5641094145E5E7E002F1332 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		E5641095145E5E7E002F1332 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		E5641096145E5E7E002F1332 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		E5641097145E5E7E002F1332 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		E5641098145E5E7E002F1332 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		E5641099145E5E7E002F1332 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		E564109A145E5E7E002F1332 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		E564109B145E5E7E002F1332 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		E564109C145E5E7E002F1332 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		E564109D145E5E7E002F1332 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		E564109E145E5E7E002F1332 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		E564109F145E5E7E002F1332 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		E56410A0145E5E7E002F1332 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		E56410A1145E5E7E002F1332 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		E56410A2145E5E7E002F1332 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		E56410A3145E5E7E002F1332 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		E56410A4145E5E7E002F1332 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		E56410A5145E5E7E002F1332 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		E56410B2145E5ECD002F1332 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E56410B4145E5ED4002F1332 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E56410B6145E5EDD002F1332 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E56410BC145E5F1C002F1332 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E56410C7145E6271002F1332 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E56410C8145E6271002F1332 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E564106B145E5E4C002F1332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56410BD145E5F1C002F1332 /* libz.dylib in Frameworks */,
+				E56410B7145E5EDE002F1332 /* SystemConfiguration.framework in Frameworks */,
+				E56410B5145E5ED4002F1332 /* MobileCoreServices.framework in Frameworks */,
+				E56410B3145E5ECD002F1332 /* CFNetwork.framework in Frameworks */,
+				E5641073145E5E4C002F1332 /* UIKit.framework in Frameworks */,
+				E5641075145E5E4C002F1332 /* Foundation.framework in Frameworks */,
+				E5641077145E5E4C002F1332 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5641063145E5E4C002F1332 = {
+			isa = PBXGroup;
+			children = (
+				E56410B1145E5E84002F1332 /* ASIHttpRequest */,
+				E5641078145E5E4C002F1332 /* Failure Recovery */,
+				E5641071145E5E4C002F1332 /* Frameworks */,
+				E564106F145E5E4C002F1332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E564106F145E5E4C002F1332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E564106E145E5E4C002F1332 /* Failure Recovery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5641071145E5E4C002F1332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E56410BC145E5F1C002F1332 /* libz.dylib */,
+				E56410B6145E5EDD002F1332 /* SystemConfiguration.framework */,
+				E56410B4145E5ED4002F1332 /* MobileCoreServices.framework */,
+				E56410B2145E5ECD002F1332 /* CFNetwork.framework */,
+				E5641072145E5E4C002F1332 /* UIKit.framework */,
+				E5641074145E5E4C002F1332 /* Foundation.framework */,
+				E5641076145E5E4C002F1332 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5641078145E5E4C002F1332 /* Failure Recovery */ = {
+			isa = PBXGroup;
+			children = (
+				E5641081145E5E4C002F1332 /* Failure_RecoveryAppDelegate.h */,
+				E5641082145E5E4C002F1332 /* Failure_RecoveryAppDelegate.m */,
+				E5641087145E5E4C002F1332 /* Failure_RecoveryViewController.h */,
+				E5641088145E5E4C002F1332 /* Failure_RecoveryViewController.m */,
+				E56410D3145E657C002F1332 /* XIBs */,
+				E5641079145E5E4C002F1332 /* Supporting Files */,
+			);
+			path = "Failure Recovery";
+			sourceTree = "<group>";
+		};
+		E5641079145E5E4C002F1332 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E564107A145E5E4C002F1332 /* Failure Recovery-Info.plist */,
+				E564107B145E5E4C002F1332 /* InfoPlist.strings */,
+				E564107E145E5E4C002F1332 /* main.m */,
+				E5641080145E5E4C002F1332 /* Failure Recovery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E56410B1145E5E84002F1332 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E56410C7145E6271002F1332 /* Reachability.h */,
+				E56410C8145E6271002F1332 /* Reachability.m */,
+				E5641092145E5E7E002F1332 /* ASIAuthenticationDialog.h */,
+				E5641093145E5E7E002F1332 /* ASIAuthenticationDialog.m */,
+				E5641094145E5E7E002F1332 /* ASICacheDelegate.h */,
+				E5641095145E5E7E002F1332 /* ASIDataCompressor.h */,
+				E5641096145E5E7E002F1332 /* ASIDataCompressor.m */,
+				E5641097145E5E7E002F1332 /* ASIDataDecompressor.h */,
+				E5641098145E5E7E002F1332 /* ASIDataDecompressor.m */,
+				E5641099145E5E7E002F1332 /* ASIDownloadCache.h */,
+				E564109A145E5E7E002F1332 /* ASIDownloadCache.m */,
+				E564109B145E5E7E002F1332 /* ASIFormDataRequest.h */,
+				E564109C145E5E7E002F1332 /* ASIFormDataRequest.m */,
+				E564109D145E5E7E002F1332 /* ASIHTTPRequest.h */,
+				E564109E145E5E7E002F1332 /* ASIHTTPRequest.m */,
+				E564109F145E5E7E002F1332 /* ASIHTTPRequestConfig.h */,
+				E56410A0145E5E7E002F1332 /* ASIHTTPRequestDelegate.h */,
+				E56410A1145E5E7E002F1332 /* ASIInputStream.h */,
+				E56410A2145E5E7E002F1332 /* ASIInputStream.m */,
+				E56410A3145E5E7E002F1332 /* ASINetworkQueue.h */,
+				E56410A4145E5E7E002F1332 /* ASINetworkQueue.m */,
+				E56410A5145E5E7E002F1332 /* ASIProgressDelegate.h */,
+			);
+			name = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		E56410D3145E657C002F1332 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E5641084145E5E4C002F1332 /* MainWindow.xib */,
+				E564108A145E5E4C002F1332 /* Failure_RecoveryViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E564106D145E5E4C002F1332 /* Failure Recovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E564108F145E5E4C002F1332 /* Build configuration list for PBXNativeTarget "Failure Recovery" */;
+			buildPhases = (
+				E564106A145E5E4C002F1332 /* Sources */,
+				E564106B145E5E4C002F1332 /* Frameworks */,
+				E564106C145E5E4C002F1332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Failure Recovery";
+			productName = "Failure Recovery";
+			productReference = E564106E145E5E4C002F1332 /* Failure Recovery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5641065145E5E4C002F1332 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E5641068145E5E4C002F1332 /* Build configuration list for PBXProject "Failure Recovery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5641063145E5E4C002F1332;
+			productRefGroup = E564106F145E5E4C002F1332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E564106D145E5E4C002F1332 /* Failure Recovery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E564106C145E5E4C002F1332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E564107D145E5E4C002F1332 /* InfoPlist.strings in Resources */,
+				E5641086145E5E4C002F1332 /* MainWindow.xib in Resources */,
+				E564108C145E5E4C002F1332 /* Failure_RecoveryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E564106A145E5E4C002F1332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E564107F145E5E4C002F1332 /* main.m in Sources */,
+				E5641083145E5E4C002F1332 /* Failure_RecoveryAppDelegate.m in Sources */,
+				E5641089145E5E4C002F1332 /* Failure_RecoveryViewController.m in Sources */,
+				E56410A8145E5E7E002F1332 /* ASIAuthenticationDialog.m in Sources */,
+				E56410A9145E5E7E002F1332 /* ASIDataCompressor.m in Sources */,
+				E56410AA145E5E7E002F1332 /* ASIDataDecompressor.m in Sources */,
+				E56410AB145E5E7E002F1332 /* ASIDownloadCache.m in Sources */,
+				E56410AC145E5E7E002F1332 /* ASIFormDataRequest.m in Sources */,
+				E56410AD145E5E7E002F1332 /* ASIHTTPRequest.m in Sources */,
+				E56410AE145E5E7E002F1332 /* ASIInputStream.m in Sources */,
+				E56410AF145E5E7E002F1332 /* ASINetworkQueue.m in Sources */,
+				E56410C9145E6271002F1332 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E564107B145E5E4C002F1332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E564107C145E5E4C002F1332 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5641084145E5E4C002F1332 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5641085145E5E4C002F1332 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E564108A145E5E4C002F1332 /* Failure_RecoveryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E564108B145E5E4C002F1332 /* en */,
+			);
+			name = Failure_RecoveryViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E564108D145E5E4C002F1332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E564108E145E5E4C002F1332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5641090145E5E4C002F1332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Failure Recovery/Failure Recovery-Prefix.pch";
+				INFOPLIST_FILE = "Failure Recovery/Failure Recovery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5641091145E5E4C002F1332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Failure Recovery/Failure Recovery-Prefix.pch";
+				INFOPLIST_FILE = "Failure Recovery/Failure Recovery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5641068145E5E4C002F1332 /* Build configuration list for PBXProject "Failure Recovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E564108D145E5E4C002F1332 /* Debug */,
+				E564108E145E5E4C002F1332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E564108F145E5E4C002F1332 /* Build configuration list for PBXNativeTarget "Failure Recovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5641090145E5E4C002F1332 /* Debug */,
+				E5641091145E5E4C002F1332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5641065145E5E4C002F1332 /* Project object */;
+}
